@@ -1,0 +1,1347 @@
+{
+  "rentalCompany": {
+    "name": "CityDrive Rentals",
+    "contact": {
+      "phone": "+1-800-555-1234",
+      "email": "support@citydriverentals.com",
+      "address": "123 Main Street, Metropolis, USA"
+    },
+    "branches": [
+      {
+        "branchId": "GON-001",
+        "city": "Gondar",
+        "address": "12 Kazanchis St., Gondar",
+        "phone": "+251-58-123-4567",
+        "openingHours": "8:00 AM - 8:00 PM"
+      },
+      {
+        "branchId": "BAH-002",
+        "city": "Bahrdar",
+        "address": "45 Blue Nile Rd., Bahrdar",
+        "phone": "+251-58-765-4321",
+        "openingHours": "7:00 AM - 9:00 PM"
+      },
+      {
+        "branchId": "ADD-003",
+        "city": "Addis Ababa",
+        "address": "89 Churchill Ave., Addis Ababa",
+        "phone": "+251-11-234-5678",
+        "openingHours": "9:00 AM - 7:00 PM"
+      }
+    ]
+  },
+  "cars": [
+    {
+      "id": "CAR1001",
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "category": "Sedan",
+      "rentalPricePerDay": 1650,
+      "availability": true,
+      "description": "Comfortable and fuel-efficient sedan ideal for city driving and business trips. Reliable with advanced features for a smooth ride.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "32 MPG city / 42 MPG highway",
+        "color": "White"
+      },
+      "location": {
+        "city": "Gondar",
+        "address": "200 Meskel St., Gondar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 150,
+        "insuranceIncluded": false,
+        "insuranceOptions": [
+          "Basic Coverage",
+          "Full Coverage",
+          "Theft Protection"
+        ],
+        "depositRequired": 6000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Jane D.",
+          "rating": 5,
+          "comment": "Smooth ride and clean car. Perfect for my business trip."
+        },
+        {
+          "reviewer": "Mark S.",
+          "rating": 4,
+          "comment": "Reliable car but GPS navigation was a little outdated."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/toyota-camry",
+        "https://loremflickr.com/320/240/toyota-camry-interior"
+      ]
+    },
+    {
+      "id": "CAR1002",
+      "make": "Toyota",
+      "model": "RAV4",
+      "year": 2021,
+      "category": "SUV",
+      "rentalPricePerDay": 1950,
+      "availability": true,
+      "description": "A versatile and eco-friendly hybrid SUV offering ample space and advanced tech, perfect for family adventures or weekend escapes.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Hybrid",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "sunroof": true,
+        "fuelEfficiency": "41 MPG combined",
+        "color": "Silver"
+      },
+      "location": {
+        "city": "Bahrdar",
+        "address": "12 Kuriftu Rd., Bahrdar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 3,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 9000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Lily R.",
+          "rating": 5,
+          "comment": "Perfect for my family trips and great on gas."
+        },
+        {
+          "reviewer": "Tom P.",
+          "rating": 4,
+          "comment": "Comfortable with all the modern features."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/toyota-rav4",
+        "https://loremflickr.com/320/240/toyota-rav4-side"
+      ]
+    },
+    {
+      "id": "CAR1003",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2020,
+      "category": "Sedan",
+      "rentalPricePerDay": 1350,
+      "availability": true,
+      "description": "Economical and easy to drive sedan, perfect for daily commutes and budget-friendly travel without sacrificing comfort.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": false,
+        "bluetooth": true,
+        "fuelEfficiency": "30 MPG city / 38 MPG highway",
+        "color": "Blue"
+      },
+      "location": {
+        "city": "Addis Ababa",
+        "address": "45 Bole Rd., Addis Ababa"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 1,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 140,
+        "insuranceIncluded": false,
+        "insuranceOptions": [
+          "Basic Coverage",
+          "Full Coverage"
+        ],
+        "depositRequired": 4500
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Kevin W.",
+          "rating": 4,
+          "comment": "Affordable and easy to drive, but GPS was missing."
+        },
+        {
+          "reviewer": "Emily F.",
+          "rating": 3,
+          "comment": "Great fuel saver and comfortable ride."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/toyota-corolla",
+        "https://loremflickr.com/320/240/toyota-corolla-interior"
+      ]
+    },
+    {
+      "id": "CAR2001",
+      "make": "Ford",
+      "model": "Escape",
+      "year": 2021,
+      "category": "SUV",
+      "rentalPricePerDay": 2100,
+      "availability": false,
+      "description": "Efficient hybrid SUV ideal for eco-conscious travelers who need space and comfort for their trips.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Hybrid",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "sunroof": true,
+        "fuelEfficiency": "44 MPG combined",
+        "color": "Metallic Gray"
+      },
+      "location": {
+        "city": "Gondar",
+        "address": "78 Sesame St., Gondar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 3,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 9000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Lily R.",
+          "rating": 5,
+          "comment": "Love the hybrid. Saved me a lot on gas."
+        },
+        {
+          "reviewer": "Tom P.",
+          "rating": 3,
+          "comment": "Comfortable but had a minor issue with trunk sensor."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/ford-escape",
+        "https://loremflickr.com/320/240/ford-escape-side"
+      ]
+    },
+    {
+      "id": "CAR2002",
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2022,
+      "category": "Sports",
+      "rentalPricePerDay": 3300,
+      "availability": true,
+      "description": "Classic American muscle car providing thrilling performance and style for drivers who want to make an impression.",
+      "features": {
+        "transmission": "Manual",
+        "fuelType": "Gasoline",
+        "seats": 4,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "21 MPG city / 30 MPG highway",
+        "color": "Red"
+      },
+      "location": {
+        "city": "Bahrdar",
+        "address": "23 Meles Zenawi Blvd., Bahrdar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 1,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 100,
+        "insuranceIncluded": false,
+        "insuranceOptions": [
+          "Basic Coverage",
+          "Full Coverage",
+          "Theft Protection"
+        ],
+        "depositRequired": 13500
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Steve B.",
+          "rating": 5,
+          "comment": "Powerful and fun car to drive."
+        },
+        {
+          "reviewer": "Nina C.",
+          "rating": 4,
+          "comment": "Great for weekend getaways."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/ford-mustang",
+        "https://loremflickr.com/320/240/ford-mustang-interior"
+      ]
+    },
+    {
+      "id": "CAR2003",
+      "make": "Ford",
+      "model": "F-150",
+      "year": 2020,
+      "category": "Truck",
+      "rentalPricePerDay": 2400,
+      "availability": true,
+      "description": "Robust and reliable pickup truck capable of handling heavy loads and off-road terrain with ease.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": false,
+        "fuelEfficiency": "20 MPG city / 26 MPG highway",
+        "color": "Blue"
+      },
+      "location": {
+        "city": "Addis Ababa",
+        "address": "110 Sar Bet St., Addis Ababa"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 10500
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Rachel G.",
+          "rating": 4,
+          "comment": "Great truck for heavy duty transport."
+        },
+        {
+          "reviewer": "Peter N.",
+          "rating": 5,
+          "comment": "Reliable and powerful."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/ford-f150",
+        "https://loremflickr.com/320/240/ford-f150-back"
+      ]
+    },
+    {
+      "id": "CAR3001",
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2023,
+      "category": "Electric",
+      "rentalPricePerDay": 3600,
+      "availability": true,
+      "description": "Experience cutting-edge electric driving with excellent range and luxury interiors. Perfect for environmentally-conscious travelers.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Electric",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "autopilot": true,
+        "fastCharging": true,
+        "rangeMiles": 353,
+        "color": "Red"
+      },
+      "location": {
+        "city": "Gondar",
+        "address": "35 Arbegnoch St., Gondar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 1,
+        "mileageUnlimited": true,
+        "insuranceIncluded": false,
+        "insuranceOptions": [
+          "Basic Coverage",
+          "Full Coverage",
+          "Battery Damage Protection"
+        ],
+        "depositRequired": 15000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Alex K.",
+          "rating": 5,
+          "comment": "Fantastic electric car experience. The autopilot feature is outstanding."
+        },
+        {
+          "reviewer": "Sara M.",
+          "rating": 4,
+          "comment": "Smooth ride but charging stations were hard to find in some areas."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/tesla-model3",
+        "https://loremflickr.com/320/240/tesla-model3-interior"
+      ]
+    },
+    {
+      "id": "CAR3002",
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2022,
+      "category": "Electric",
+      "rentalPricePerDay": 5400,
+      "availability": true,
+      "description": "Luxury electric sedan boasting long range and top performance. Enjoy premium comfort and cutting-edge technology.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Electric",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "autopilot": true,
+        "fastCharging": true,
+        "rangeMiles": 396,
+        "color": "Black"
+      },
+      "location": {
+        "city": "Bahrdar",
+        "address": "7 Abay St., Bahrdar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 1,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 21000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Jordan P.",
+          "rating": 5,
+          "comment": "Best electric car I've ever driven."
+        },
+        {
+          "reviewer": "Megan S.",
+          "rating": 5,
+          "comment": "Luxurious and fast."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/tesla-models",
+        "https://loremflickr.com/320/240/tesla-models-interior"
+      ]
+    },
+    {
+      "id": "CAR3003",
+      "make": "Tesla",
+      "model": "Model X",
+      "year": 2021,
+      "category": "Electric SUV",
+      "rentalPricePerDay": 6000,
+      "availability": false,
+      "description": "Spacious electric SUV with seating for seven, cutting edge tech, and impressive electric range. Perfect for family travels in style.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Electric",
+        "seats": 7,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "autopilot": true,
+        "fastCharging": true,
+        "rangeMiles": 360,
+        "color": "White"
+      },
+      "location": {
+        "city": "Addis Ababa",
+        "address": "150 Ethiopia Ave., Addis Ababa"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 24000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Gloria V.",
+          "rating": 5,
+          "comment": "Spacious and very comfortable for family trips."
+        },
+        {
+          "reviewer": "Henry M.",
+          "rating": 4,
+          "comment": "A bit pricey but worth it."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/tesla-modelx",
+        "https://loremflickr.com/320/240/tesla-modelx-side"
+      ]
+    },
+    {
+      "id": "CAR4001",
+      "make": "BMW",
+      "model": "X5",
+      "year": 2020,
+      "category": "Luxury SUV",
+      "rentalPricePerDay": 4500,
+      "availability": true,
+      "description": "Luxury SUV offering top-notch comfort, heated leather seats, and powerful performance for premium travel experiences.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "heatedSeats": true,
+        "leatherInterior": true,
+        "fuelEfficiency": "21 MPG city / 25 MPG highway",
+        "color": "Black"
+      },
+      "location": {
+        "city": "Gondar",
+        "address": "18 Fasil St., Gondar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 120,
+        "insuranceIncluded": true,
+        "depositRequired": 12000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "George L.",
+          "rating": 5,
+          "comment": "Luxury and comfort combined. Perfect for long drives."
+        },
+        {
+          "reviewer": "Anna T.",
+          "rating": 4,
+          "comment": "Well maintained vehicle but a bit pricey."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/bmw-x5",
+        "https://loremflickr.com/320/240/bmw-x5-side"
+      ]
+    },
+    {
+      "id": "CAR4002",
+      "make": "BMW",
+      "model": "3 Series",
+      "year": 2021,
+      "category": "Luxury Sedan",
+      "rentalPricePerDay": 3900,
+      "availability": true,
+      "description": "Elegant and sporty sedan offering excellent handling, heated leather seats, and advanced safety features.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "heatedSeats": true,
+        "leatherInterior": true,
+        "fuelEfficiency": "26 MPG city / 36 MPG highway",
+        "color": "Blue"
+      },
+      "location": {
+        "city": "Bahrdar",
+        "address": "9 Sun River Rd., Bahrdar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 1,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 130,
+        "insuranceIncluded": true,
+        "depositRequired": 11400
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Rachel M.",
+          "rating": 5,
+          "comment": "Smooth ride with great handling."
+        },
+        {
+          "reviewer": "Jason F.",
+          "rating": 4,
+          "comment": "Comfortable and stylish."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/bmw-3series",
+        "https://loremflickr.com/320/240/bmw-3series-interior"
+      ]
+    },
+    {
+      "id": "CAR4003",
+      "make": "BMW",
+      "model": "X3",
+      "year": 2019,
+      "category": "SUV",
+      "rentalPricePerDay": 3600,
+      "availability": true,
+      "description": "Diesel-powered SUV delivering strong performance, luxury amenities, and excellent fuel economy perfect for city or highway travel.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Diesel",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "heatedSeats": true,
+        "leatherInterior": true,
+        "fuelEfficiency": "25 MPG city / 29 MPG highway",
+        "color": "White"
+      },
+      "location": {
+        "city": "Addis Ababa",
+        "address": "215 Africa Ave., Addis Ababa"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 120,
+        "insuranceIncluded": true,
+        "depositRequired": 10800
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Olivia P.",
+          "rating": 5,
+          "comment": "Perfect balance of power and comfort."
+        },
+        {
+          "reviewer": "Daniel T.",
+          "rating": 4,
+          "comment": "Great SUV for city and highway driving."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/bmw-x3",
+        "https://loremflickr.com/320/240/bmw-x3-side"
+      ]
+    },
+    {
+      "id": "CAR5001",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2019,
+      "category": "Sedan",
+      "rentalPricePerDay": 1350,
+      "availability": true,
+      "description": "Reliable and economical manual sedan, perfect for budget travelers and city commuters seeking fuel efficiency.",
+      "features": {
+        "transmission": "Manual",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": false,
+        "bluetooth": true,
+        "fuelEfficiency": "30 MPG city / 38 MPG highway",
+        "color": "Blue"
+      },
+      "location": {
+        "city": "Gondar",
+        "address": "60 Tana St., Gondar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 1,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 140,
+        "insuranceIncluded": false,
+        "insuranceOptions": [
+          "Basic Coverage",
+          "Full Coverage"
+        ],
+        "depositRequired": 4500
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Kevin W.",
+          "rating": 4,
+          "comment": "Affordable and easy to drive, but lacks GPS."
+        },
+        {
+          "reviewer": "Emily F.",
+          "rating": 3,
+          "comment": "Manual transmission was a challenge for me."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/honda-civic",
+        "https://loremflickr.com/320/240/honda-civic-interior"
+      ]
+    },
+    {
+      "id": "CAR5002",
+      "make": "Honda",
+      "model": "Accord",
+      "year": 2022,
+      "category": "Sedan",
+      "rentalPricePerDay": 1800,
+      "availability": true,
+      "description": "Spacious and fuel-efficient hybrid sedan, excellent for comfortable commuting and long road trips.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Hybrid",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "48 MPG city / 47 MPG highway",
+        "color": "Silver"
+      },
+      "location": {
+        "city": "Bahrdar",
+        "address": "80 Abbay Avenue, Bahrdar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 7500
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Anna K.",
+          "rating": 5,
+          "comment": "Very comfortable and fuel efficient car."
+        },
+        {
+          "reviewer": "Mike H.",
+          "rating": 4,
+          "comment": "Smooth driving experience."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/honda-accord",
+        "https://loremflickr.com/320/240/honda-accord-interior"
+      ]
+    },
+    {
+      "id": "CAR5003",
+      "make": "Honda",
+      "model": "CR-V",
+      "year": 2021,
+      "category": "SUV",
+      "rentalPricePerDay": 2100,
+      "availability": true,
+      "description": "Spacious and reliable SUV with great fuel economy, perfect for family trips and urban driving.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "28 MPG city / 34 MPG highway",
+        "color": "Black"
+      },
+      "location": {
+        "city": "Addis Ababa",
+        "address": "15 Churchill St., Addis Ababa"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 3,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 9000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Samantha R.",
+          "rating": 5,
+          "comment": "Great SUV for city and road trips."
+        },
+        {
+          "reviewer": "David P.",
+          "rating": 4,
+          "comment": "Fuel efficient and spacious."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/honda-crv",
+        "https://loremflickr.com/320/240/honda-crv-interior"
+      ]
+    },
+    {
+      "id": "CAR6001",
+      "make": "Chevrolet",
+      "model": "Impala",
+      "year": 2018,
+      "category": "Sedan",
+      "rentalPricePerDay": 1500,
+      "availability": true,
+      "description": "Comfortable sedan with smooth ride and spacious interior, ideal for both business and leisure travel.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "22 MPG city / 31 MPG highway",
+        "color": "Silver"
+      },
+      "location": {
+        "city": "Gondar",
+        "address": "54 Castle St., Gondar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 7500
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Rachel G.",
+          "rating": 4,
+          "comment": "Good car for family trips, comfortable seats."
+        },
+        {
+          "reviewer": "Peter N.",
+          "rating": 5,
+          "comment": "Smooth driving experience and good fuel economy."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/chevrolet-impala",
+        "https://loremflickr.com/320/240/chevrolet-impala-back"
+      ]
+    },
+    {
+      "id": "CAR6002",
+      "make": "Chevrolet",
+      "model": "Equinox",
+      "year": 2020,
+      "category": "SUV",
+      "rentalPricePerDay": 1950,
+      "availability": true,
+      "description": "Reliable and fuel-efficient SUV with plenty of space, suitable for family travel and outdoor adventures.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "26 MPG city / 31 MPG highway",
+        "color": "Blue"
+      },
+      "location": {
+        "city": "Bahrdar",
+        "address": "33 Nile River Rd., Bahrdar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 3,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 8400
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Linda D.",
+          "rating": 4,
+          "comment": "Comfortable and smooth SUV."
+        },
+        {
+          "reviewer": "James W.",
+          "rating": 5,
+          "comment": "Perfect for road trips with family."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/chevrolet-equinox",
+        "https://loremflickr.com/320/240/chevrolet-equinox-interior"
+      ]
+    },
+    {
+      "id": "CAR6003",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2019,
+      "category": "Sedan",
+      "rentalPricePerDay": 1650,
+      "availability": true,
+      "description": "Smooth and comfortable sedan with modern features, great for both city and highway drives.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "27 MPG city / 36 MPG highway",
+        "color": "White"
+      },
+      "location": {
+        "city": "Addis Ababa",
+        "address": "100 Africa Tel. Rd., Addis Ababa"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 140,
+        "insuranceIncluded": true,
+        "depositRequired": 7200
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Tom H.",
+          "rating": 4,
+          "comment": "Good car, smooth ride."
+        },
+        {
+          "reviewer": "Kathy J.",
+          "rating": 3,
+          "comment": "Average performance but comfortable interior."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/chevrolet-malibu",
+        "https://loremflickr.com/320/240/chevrolet-malibu-interior"
+      ]
+    },
+    {
+      "id": "CAR7001",
+      "make": "Jeep",
+      "model": "Wrangler",
+      "year": 2021,
+      "category": "SUV",
+      "rentalPricePerDay": 2850,
+      "availability": true,
+      "description": "Rugged and capable 4x4 SUV perfect for off-road adventure seekers and outdoor enthusiasts.",
+      "features": {
+        "transmission": "Manual",
+        "fuelType": "Gasoline",
+        "seats": 4,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": false,
+        "4x4Drive": true,
+        "fuelEfficiency": "17 MPG city / 25 MPG highway",
+        "color": "Green"
+      },
+      "location": {
+        "city": "Gondar",
+        "address": "41 Fasil St., Gondar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 3,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 100,
+        "insuranceIncluded": true,
+        "depositRequired": 10500
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Steve B.",
+          "rating": 5,
+          "comment": "Perfect for off-road adventures and city driving."
+        },
+        {
+          "reviewer": "Nina C.",
+          "rating": 4,
+          "comment": "Loved the 4x4 but manual transmission was tricky."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/jeep-wrangler",
+        "https://loremflickr.com/320/240/jeep-wrangler-side"
+      ]
+    },
+    {
+      "id": "CAR7002",
+      "make": "Jeep",
+      "model": "Grand Cherokee",
+      "year": 2020,
+      "category": "SUV",
+      "rentalPricePerDay": 3150,
+      "availability": true,
+      "description": "Luxury SUV with powerful performance and spacious interior for family and business travel.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "4x4Drive": true,
+        "fuelEfficiency": "19 MPG city / 26 MPG highway",
+        "color": "Black"
+      },
+      "location": {
+        "city": "Bahrdar",
+        "address": "12 Lake Tana Ave., Bahrdar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 12000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Amy R.",
+          "rating": 5,
+          "comment": "Luxury SUV, very comfortable."
+        },
+        {
+          "reviewer": "Dan M.",
+          "rating": 4,
+          "comment": "Good power and spacious."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/jeep-grand-cherokee",
+        "https://loremflickr.com/320/240/jeep-grand-cherokee-interior"
+      ]
+    },
+    {
+      "id": "CAR7003",
+      "make": "Jeep",
+      "model": "Cherokee",
+      "year": 2019,
+      "category": "SUV",
+      "rentalPricePerDay": 2550,
+      "availability": true,
+      "description": "Dependable SUV with solid off-road capabilities and comfortable cabin for daily and weekend drives.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": false,
+        "bluetooth": true,
+        "4x4Drive": true,
+        "fuelEfficiency": "22 MPG city / 31 MPG highway",
+        "color": "Gray"
+      },
+      "location": {
+        "city": "Addis Ababa",
+        "address": "172 Bole St., Addis Ababa"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 1,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 110,
+        "insuranceIncluded": false,
+        "insuranceOptions": [
+          "Basic Coverage",
+          "Full Coverage"
+        ],
+        "depositRequired": 8400
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Natalie Z.",
+          "rating": 4,
+          "comment": "Good all-round SUV."
+        },
+        {
+          "reviewer": "Kyle G.",
+          "rating": 3,
+          "comment": "Adequate but could use updated features."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/jeep-cherokee",
+        "https://loremflickr.com/320/240/jeep-cherokee-side"
+      ]
+    },
+    {
+      "id": "CAR8001",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year": 2020,
+      "category": "Hatchback",
+      "rentalPricePerDay": 1440,
+      "availability": true,
+      "description": "Compact and efficient hatchback ideal for urban driving with modern styling and responsive handling.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Diesel",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "29 MPG city / 39 MPG highway",
+        "color": "Yellow"
+      },
+      "location": {
+        "city": "Gondar",
+        "address": "191 Hanock St., Gondar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 1,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 130,
+        "insuranceIncluded": false,
+        "insuranceOptions": [
+          "Basic Coverage",
+          "Full Coverage"
+        ],
+        "depositRequired": 5100
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Linda M.",
+          "rating": 4,
+          "comment": "Compact and easy to drive in the city."
+        },
+        {
+          "reviewer": "Jason K.",
+          "rating": 3,
+          "comment": "Diesel engine was a bit noisy."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/vw-golf",
+        "https://loremflickr.com/320/240/vw-golf-interior"
+      ]
+    },
+    {
+      "id": "CAR8002",
+      "make": "Volkswagen",
+      "model": "Passat",
+      "year": 2021,
+      "category": "Sedan",
+      "rentalPricePerDay": 1650,
+      "availability": true,
+      "description": "Smooth and stylish sedan with comfortable interiors and advanced safety features.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "24 MPG city / 36 MPG highway",
+        "color": "White"
+      },
+      "location": {
+        "city": "Bahrdar",
+        "address": "72 Fendika Rd., Bahrdar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 140,
+        "insuranceIncluded": true,
+        "depositRequired": 6000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Anna S.",
+          "rating": 5,
+          "comment": "Stylish and smooth ride."
+        },
+        {
+          "reviewer": "Mark D.",
+          "rating": 4,
+          "comment": "Comfortable and reliable."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/vw-passat",
+        "https://loremflickr.com/320/240/vw-passat-interior"
+      ]
+    },
+    {
+      "id": "CAR8003",
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "year": 2019,
+      "category": "SUV",
+      "rentalPricePerDay": 1950,
+      "availability": true,
+      "description": "Versatile SUV with spacious cabin and smooth handling, perfect for families and active lifestyles.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": false,
+        "fuelEfficiency": "22 MPG city / 29 MPG highway",
+        "color": "Gray"
+      },
+      "location": {
+        "city": "Addis Ababa",
+        "address": "300 Ras Desta St., Addis Ababa"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "depositRequired": 6900
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Gloria P.",
+          "rating": 4,
+          "comment": "Good size and comfortable SUV."
+        },
+        {
+          "reviewer": "Henry D.",
+          "rating": 3,
+          "comment": "Engine a bit underpowered."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/vw-tiguan",
+        "https://loremflickr.com/320/240/vw-tiguan-side"
+      ]
+    },
+    {
+      "id": "CAR9001",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2022,
+      "category": "Luxury Sedan",
+      "rentalPricePerDay": 4200,
+      "availability": true,
+      "description": "Luxury sedan with premium features and elegant design, perfect for business and special occasions.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "heatedSeats": true,
+        "leatherInterior": true,
+        "fuelEfficiency": "24 MPG city / 32 MPG highway",
+        "color": "Silver"
+      },
+      "location": {
+        "city": "Gondar",
+        "address": "50 Debre Tabor Rd., Gondar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 120,
+        "insuranceIncluded": true,
+        "depositRequired": 12600
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Olivia W.",
+          "rating": 5,
+          "comment": "Luxury and performance combined beautifully."
+        },
+        {
+          "reviewer": "Daniel H.",
+          "rating": 4,
+          "comment": "A bit expensive but worth it for special occasions."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/mercedes-cclass",
+        "https://loremflickr.com/320/240/mercedes-cclass-interior"
+      ]
+    },
+    {
+      "id": "CAR9002",
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "year": 2021,
+      "category": "Luxury Sedan",
+      "rentalPricePerDay": 4800,
+      "availability": true,
+      "description": "High-end luxury sedan delivering superior comfort, cutting-edge technology, and smooth driving dynamics.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "heatedSeats": true,
+        "leatherInterior": true,
+        "fuelEfficiency": "22 MPG city / 30 MPG highway",
+        "color": "Black"
+      },
+      "location": {
+        "city": "Bahrdar",
+        "address": "57 Tana St., Bahrdar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 3,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 120,
+        "insuranceIncluded": true,
+        "depositRequired": 14400
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Sophia L.",
+          "rating": 5,
+          "comment": "Exceptional luxury and comfort."
+        },
+        {
+          "reviewer": "James B.",
+          "rating": 4,
+          "comment": "Perfect for business trips."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/mercedes-eclass",
+        "https://loremflickr.com/320/240/mercedes-eclass-interior"
+      ]
+    },
+    {
+      "id": "CAR9003",
+      "make": "Mercedes-Benz",
+      "model": "GLA",
+      "year": 2020,
+      "category": "Luxury SUV",
+      "rentalPricePerDay": 3900,
+      "availability": true,
+      "description": "Compact luxury SUV with agility, elegance, and advanced infotainment for upscale urban driving.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "heatedSeats": true,
+        "leatherInterior": true,
+        "fuelEfficiency": "24 MPG city / 33 MPG highway",
+        "color": "White"
+      },
+      "location": {
+        "city": "Addis Ababa",
+        "address": "75 Rockefeller St., Addis Ababa"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 125,
+        "insuranceIncluded": true,
+        "depositRequired": 11700
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Emma N.",
+          "rating": 5,
+          "comment": "Compact luxury SUV, smooth and fun to drive."
+        },
+        {
+          "reviewer": "Michael G.",
+          "rating": 4,
+          "comment": "Stylish vehicle, good mileage for size."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/mercedes-gla",
+        "https://loremflickr.com/320/240/mercedes-gla-interior"
+      ]
+    }
+  ]
+}
+
