@@ -25,6 +25,27 @@ body {
   background: purple;
 }
 
+.menu {
+  position: relative;
+}
+
 .drop-menu {
   display: none;
+  background: red;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  position: absolute;
+  gap: 1rem;
+  top: 20px;
+}
+
+.menu:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.drop-link {
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }

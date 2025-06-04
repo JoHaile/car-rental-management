@@ -4,6 +4,7 @@ import {
   Image,
   Button,
   Box,
+  Text,
   Stack,
   Center,
 } from "@chakra-ui/react";
@@ -22,14 +23,16 @@ function NavBar() {
         <NavLink to="/about">About Us</NavLink>
 
         {/* make it on hover to display  */}
-        <Link className="drop">
-          Company <BiChevronDown />
-        </Link>
+        <div className="menu">
+          <NavLink className="drop-link">
+            Company <BiChevronDown />
+          </NavLink>
 
-        <div className="drop-menu" display="flex" flexDir="column">
-          <Link>Rental Policy</Link>
-          <Link>Rental Requirement</Link>
-          <Link>Our Address</Link>
+          <div className="drop-menu">
+            <NavLink className="drop-link">Rental Policy</NavLink>
+            <NavLink className="drop-link">Rental Requirement</NavLink>
+            <NavLink className="drop-link">Our Address</NavLink>
+          </div>
         </div>
 
         <NavLink to="/faq">FAQs</NavLink>
