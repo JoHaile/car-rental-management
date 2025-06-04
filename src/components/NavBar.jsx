@@ -14,7 +14,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <HStack display="flex" justifyContent="space-between" mt={2}>
+    <HStack display="flex" justifyContent="space-between" mt="2rem">
       <Image src={logo} height="40px" />
 
       <Box display="flex" gap="1rem">
