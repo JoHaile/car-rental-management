@@ -14,7 +14,14 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <HStack display="flex" justifyContent="space-between" mt="2rem">
+    <HStack
+      display="flex"
+      justifyContent="space-between"
+      position="absolute"
+      width="100%"
+      top="2rem"
+      padding="0 2.5vw"
+    >
       <Image src={logo} height="40px" />
 
       <Box display="flex" gap="1rem">
