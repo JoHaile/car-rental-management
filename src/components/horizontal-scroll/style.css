@@ -4,24 +4,20 @@
   overflow: hidden;
   padding: 0 2.5vw;
   height: 20vh;
-
+  background-color: transparent;
   position: relative;
 }
 .scroll-container::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(87, 199, 133, 0) 50%,
-    rgba(0, 0, 0, 1) 100%
-  );
+
+  background: linear-gradient(90deg, #000000 0%, #57c78600 50%, #000000 100%);
 }
 .scroll-container ul {
   display: flex;
   gap: 100px;
-  animation: scroll-infinite 20s linear infinite;
+  animation: scroll-infinite 30s linear infinite;
 }
 
 @keyframes scroll-infinite {
