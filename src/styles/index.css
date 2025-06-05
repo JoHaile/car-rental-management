@@ -1,8 +1,5 @@
 :root {
   font-family: inter, Helvetica, Arial, sans-serif;
-
-  color-scheme: light dark;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -11,21 +8,21 @@
 
 body {
   min-width: 320px;
-  max-width: 1700px;
+  max-width: 1500px;
   margin: auto;
   min-height: 100vh;
   position: relative;
 }
 
 /* nav-bar */
+.nav {
+  z-index: 5;
+}
 
 /* Typography */
 
 h1 {
-  font-size: 5rem;
-  font-weight: 500;
   text-transform: uppercase;
-  line-height: 1;
 }
 
 .footer {
@@ -45,11 +42,10 @@ h1 {
 
 .drop-menu {
   display: none;
-  background: red;
-  padding: 0.5rem 0.5rem 0.5rem 0;
+  padding: 1.5rem 0.5rem 0.5rem 0.5rem;
   position: absolute;
   gap: 1rem;
-  top: 20px;
+  background-color: black;
 }
 
 .menu:hover .drop-menu {
@@ -67,10 +63,20 @@ h1 {
 /* hero section */
 
 .hero {
-  background-color: rebeccapurple;
   height: 100vh;
   background-image: url(../assets/img/hero.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 2.5vw;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #0000003d;
+  z-index: 1;
 }

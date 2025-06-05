@@ -1,7 +1,8 @@
-import { HStack, Image, Button, Box, Center } from "@chakra-ui/react";
+import { HStack, Image, Button, Box, Center, Link } from "@chakra-ui/react";
 import logo from "../assets/logo.png";
 import { BiChevronDown } from "react-icons/bi";
 import { NavLink } from "react-router-dom";
+import { BiArrowFromLeft } from "react-icons/bi";
 
 function NavBar() {
   return (
@@ -9,13 +10,17 @@ function NavBar() {
       <HStack
         display="flex"
         justifyContent="space-between"
-        position="absolute"
-        top="2rem"
+        // position="absolute"
+        // top="0px"
+        // backgroundColor="#5a035a"
         width="100vw"
-        maxWidth="1300px"
+        height="60px"
         padding="0 2.5vw"
+        className="nav"
       >
-        <Image src={logo} height="40px" />
+        <NavLink to="/">
+          <Image src={logo} height="40px" />
+        </NavLink>
 
         <Box display="flex" gap="1rem">
           <NavLink to="/">Home</NavLink>
@@ -24,21 +29,29 @@ function NavBar() {
 
           {/* make it on hover to display  */}
           <div className="menu">
-            <NavLink className="drop-link">
+            <Link className="drop-link">
               Company <BiChevronDown />
-            </NavLink>
+            </Link>
 
-            <div className="drop-menu">
-              <NavLink className="drop-link">Rental Policy</NavLink>
-              <NavLink className="drop-link">Rental Requirement</NavLink>
-              <NavLink className="drop-link">Our Address</NavLink>
-            </div>
+            <Box className="drop-menu">
+              <NavLink to="/policies" className="drop-link">
+                Rental Policies <BiArrowFromLeft />
+              </NavLink>
+              <NavLink to="/requirements" className="drop-link">
+                Rental Requirements <BiArrowFromLeft />
+              </NavLink>
+              <NavLink to="/address" className="drop-link">
+                Our Address <BiArrowFromLeft />
+              </NavLink>
+            </Box>
           </div>
 
           <NavLink to="/faq">FAQs</NavLink>
         </Box>
 
-        <Button rounded="l1">Contact Us</Button>
+        <NavLink to="/contact">
+          <Button rounded="l1">Contact Us </Button>
+        </NavLink>
       </HStack>
     </Center>
   );
