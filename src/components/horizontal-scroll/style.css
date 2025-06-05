@@ -1,0 +1,35 @@
+.scroll-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 2.5vw;
+  height: 20vh;
+
+  position: relative;
+}
+.scroll-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(87, 199, 133, 0) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.scroll-container ul {
+  display: flex;
+  gap: 100px;
+  animation: scroll-infinite 20s linear infinite;
+}
+
+@keyframes scroll-infinite {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-50% - 750px));
+  }
+}

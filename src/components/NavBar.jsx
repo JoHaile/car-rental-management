@@ -24,7 +24,7 @@ function NavBar() {
 
         <Box display="flex" gap="1rem">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="/fleets">Fleets</NavLink>
+          <NavLink to="/fleets">Our Fleets</NavLink>
           <NavLink to="/about">About Us</NavLink>
 
           {/* make it on hover to display  */}

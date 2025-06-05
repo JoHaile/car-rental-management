@@ -158,10 +158,7 @@
         "mileageUnlimited": false,
         "mileageLimitPerDay": 140,
         "insuranceIncluded": false,
-        "insuranceOptions": [
-          "Basic Coverage",
-          "Full Coverage"
-        ],
+        "insuranceOptions": ["Basic Coverage", "Full Coverage"],
         "depositRequired": 4500
       },
       "customerReviews": [
@@ -650,10 +647,7 @@
         "mileageUnlimited": false,
         "mileageLimitPerDay": 140,
         "insuranceIncluded": false,
-        "insuranceOptions": [
-          "Basic Coverage",
-          "Full Coverage"
-        ],
+        "insuranceOptions": ["Basic Coverage", "Full Coverage"],
         "depositRequired": 4500
       },
       "customerReviews": [
@@ -1028,10 +1022,7 @@
         "mileageUnlimited": false,
         "mileageLimitPerDay": 110,
         "insuranceIncluded": false,
-        "insuranceOptions": [
-          "Basic Coverage",
-          "Full Coverage"
-        ],
+        "insuranceOptions": ["Basic Coverage", "Full Coverage"],
         "depositRequired": 8400
       },
       "customerReviews": [
@@ -1079,10 +1070,7 @@
         "mileageUnlimited": false,
         "mileageLimitPerDay": 130,
         "insuranceIncluded": false,
-        "insuranceOptions": [
-          "Basic Coverage",
-          "Full Coverage"
-        ],
+        "insuranceOptions": ["Basic Coverage", "Full Coverage"],
         "depositRequired": 5100
       },
       "customerReviews": [
@@ -1341,7 +1329,161 @@
         "https://loremflickr.com/320/240/mercedes-gla",
         "https://loremflickr.com/320/240/mercedes-gla-interior"
       ]
+    },
+    {
+      "id": "CAR1101",
+      "make": "Audi",
+      "model": "A4",
+      "year": 2023,
+      "category": "Sedan",
+      "rentalPricePerDay": 1850,
+      "availability": true,
+      "description": "A premium sedan with a refined interior and advanced technology, perfect for both city drives and long journeys.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "27 MPG city / 34 MPG highway",
+        "color": "Black"
+      },
+      "location": {
+        "city": "Gondar",
+        "address": "300 Churchill Ave, Gondar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 2,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 160,
+        "insuranceIncluded": true,
+        "insuranceOptions": [
+          "Full Coverage",
+          "Roadside Assistance",
+          "Collision Protection"
+        ],
+        "depositRequired": 7500
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Emily R.",
+          "rating": 5,
+          "comment": "Luxurious ride, smooth handling. Loved the premium feel."
+        },
+        {
+          "reviewer": "David K.",
+          "rating": 4,
+          "comment": "Great car, but could use a more intuitive infotainment system."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/audi-a4",
+        "https://loremflickr.com/320/240/audi-a4-interior"
+      ]
+    },
+    {
+      "id": "CAR1102",
+      "make": "Audi",
+      "model": "Q5",
+      "year": 2024,
+      "category": "SUV",
+      "rentalPricePerDay": 2100,
+      "availability": true,
+      "description": "A luxury compact SUV combining performance and practicality, ideal for both city and off-road adventures.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Hybrid",
+        "seats": 5,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "40 MPG city / 45 MPG highway",
+        "color": "Silver"
+      },
+      "location": {
+        "city": "Addis Ababa",
+        "address": "150 Bole Rd, Addis Ababa"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 3,
+        "mileageUnlimited": true,
+        "insuranceIncluded": true,
+        "insuranceOptions": [
+          "Comprehensive Coverage",
+          "Off-Road Protection",
+          "Theft Protection"
+        ],
+        "depositRequired": 8000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Michael T.",
+          "rating": 5,
+          "comment": "Spacious and smooth ride. Perfect for weekend getaways!"
+        },
+        {
+          "reviewer": "Sophia J.",
+          "rating": 4,
+          "comment": "Loved the comfort, but wish it had a panoramic sunroof."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/audi-q5",
+        "https://loremflickr.com/320/240/audi-q5-interior"
+      ]
+    },
+    {
+      "id": "CAR1103",
+      "make": "Audi",
+      "model": "R8",
+      "year": 2025,
+      "category": "Sports Car",
+      "rentalPricePerDay": 5500,
+      "availability": true,
+      "description": "A high-performance sports car with breathtaking speed, handling, and an iconic design.",
+      "features": {
+        "transmission": "Automatic",
+        "fuelType": "Gasoline",
+        "seats": 2,
+        "airConditioning": true,
+        "gps": true,
+        "bluetooth": true,
+        "fuelEfficiency": "14 MPG city / 22 MPG highway",
+        "color": "Red"
+      },
+      "location": {
+        "city": "Bahir Dar",
+        "address": "10 Lake Tana Rd, Bahir Dar"
+      },
+      "rentalPolicies": {
+        "minRentalDays": 4,
+        "mileageUnlimited": false,
+        "mileageLimitPerDay": 100,
+        "insuranceIncluded": true,
+        "insuranceOptions": [
+          "Performance Car Protection",
+          "Collision Insurance",
+          "Luxury Vehicle Coverage"
+        ],
+        "depositRequired": 15000
+      },
+      "customerReviews": [
+        {
+          "reviewer": "Chris P.",
+          "rating": 5,
+          "comment": "Insanely fast, handles like a dream! Worth every penny."
+        },
+        {
+          "reviewer": "Linda B.",
+          "rating": 4,
+          "comment": "Loved driving it, but not the best for long-distance comfort."
+        }
+      ],
+      "photos": [
+        "https://loremflickr.com/320/240/audi-r8",
+        "https://loremflickr.com/320/240/audi-r8-interior"
+      ]
     }
   ]
 }
-
