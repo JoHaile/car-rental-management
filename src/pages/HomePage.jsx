@@ -1,6 +1,7 @@
 import Features from "../components/Features";
 import Hero from "../components/Hero";
 import HorizontalScroll from "../components/horizontal-scroll/HorizontalScroll";
+import Mission from "../components/Mission";
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       <Hero />
       <HorizontalScroll />
       <Features />
+      <Mission />
     </>
   );
 }

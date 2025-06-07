@@ -1,5 +1,5 @@
 import { Grid, Box, Heading, Image, Center, Flex } from "@chakra-ui/react";
-import feature from "../assets/img/feature-1.jpg";
+import selection from "../assets/img/wide-selection.webp";
 
 function Features() {
   return (
@@ -28,9 +28,9 @@ function Features() {
           availability, rental rates, and vehicle features for a transparent and
           informed decision-making process.
         </Flex>
-        <Image src={feature} borderRadius="l1" />
+        <Image src={selection} borderRadius="l1" aspectRatio={1 / 1} />
 
-        <Image src={feature} borderRadius="l1" />
+        <Image src={selection} borderRadius="l1" aspectRatio={1 / 1} />
         <Flex
           flexDirection="column"
           justifyContent="center"
@@ -51,40 +51,12 @@ function Features() {
           alignItems="center"
         >
           <Heading as="h1" pb={2}>
-            Flexible pickup
-          </Heading>
-          Choose the pickup and return locations that fit your itinerary.
-          Whether it's the airport, city center, or your hotel, our app allows
-          seamless one-way rentals, after-hours pickup, and contactless vehicle
-          handoff to maximize your flexibility.
-        </Flex>
-        <Image src={feature} borderRadius="l1" />
-
-        <Image src={feature} borderRadius="l1" />
-        <Flex
-          flexDirection="column"
-          justifyContent="center"
-          alignItems="center"
-        >
-          <Heading as="h1" pb={2}>
-            FLEXIBLE RENTAL PERIODS
-          </Heading>
-          Whether it's a day or a week, our flexible hire options start from
-          just one day, tailored to your schedule.
-        </Flex>
-
-        <Flex
-          flexDirection="column"
-          justifyContent="center"
-          alignItems="center"
-        >
-          <Heading as="h1" pb={2}>
             INSURANCE INCLUDED
           </Heading>
           Our luxury hires include insurance, removing the worry of arranging
           separate protection.
         </Flex>
-        <Image src={feature} borderRadius="l1" />
+        <Image src={selection} borderRadius="l1" aspectRatio={1 / 1} />
       </Grid>
     </>
   );
