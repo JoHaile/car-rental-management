@@ -11,8 +11,8 @@ function Features() {
       <Grid
         gridTemplateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }}
         justifyItems="center"
-        gap={{ base: "2rem", md: "5rem" }}
-        px="2.5rem"
+        gap={{ base: "1rem", md: "3rem" }}
+        px={{ base: "5rem", md: "3rem", lg: "10rem" }}
         className="feature"
       >
         <Flex
