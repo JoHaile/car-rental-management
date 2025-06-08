@@ -18,7 +18,7 @@ function Hero() {
           </Heading>
 
           <NavLink className="drop-link" to="/booking">
-            <Button rounded="l1" mt="2rem">
+            <Button rounded="l1" mt="2rem" colorPalette="blue">
               Book Now <BiArrowFromLeft />
             </Button>
           </NavLink>

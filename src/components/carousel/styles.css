@@ -1,12 +1,12 @@
 .dots {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
-  background: #000;
+  background: #00001c;
   transition: 0.5s ease;
 }
 
 .big {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
 }

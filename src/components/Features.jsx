@@ -12,8 +12,9 @@ function Features() {
         gridTemplateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }}
         justifyItems="center"
         gap={{ base: "1rem", md: "3rem" }}
-        px={{ base: "5rem", md: "3rem", lg: "10rem" }}
+        px={{ base: "1rem", md: "3rem", lg: "9rem" }}
         className="feature"
+        transition="all .5s ease"
       >
         <Flex
           flexDirection="column"
@@ -28,9 +29,25 @@ function Features() {
           availability, rental rates, and vehicle features for a transparent and
           informed decision-making process.
         </Flex>
-        <Image src={selection} borderRadius="l1" aspectRatio={1 / 1} />
+        <Image
+          src={selection}
+          borderRadius="l1"
+          aspectRatio={16 / 9}
+          _hover={{
+            scale: "1.05",
+          }}
+          transition="all .25s ease"
+        />
 
-        <Image src={selection} borderRadius="l1" aspectRatio={1 / 1} />
+        <Image
+          src={selection}
+          borderRadius="l1"
+          aspectRatio={16 / 9}
+          _hover={{
+            scale: "1.05",
+          }}
+          transition="all .25s ease"
+        />
         <Flex
           flexDirection="column"
           justifyContent="center"
@@ -53,10 +70,20 @@ function Features() {
           <Heading as="h1" pb={2}>
             INSURANCE INCLUDED
           </Heading>
-          Our luxury hires include insurance, removing the worry of arranging
-          separate protection.
+          At Gondar Car Rentals, we provide luxury rentals with comprehensive
+          insurance, ensuring a hassle-free experience. Whether for business or
+          leisure, our top-tier service guarantees a secure, effortless, and
+          elegant journey.
         </Flex>
-        <Image src={selection} borderRadius="l1" aspectRatio={1 / 1} />
+        <Image
+          src={selection}
+          borderRadius="l1"
+          aspectRatio={16 / 9}
+          _hover={{
+            scale: "1.05",
+          }}
+          transition="all .25s ease"
+        />
       </Grid>
     </>
   );

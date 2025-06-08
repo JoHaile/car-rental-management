@@ -29,19 +29,28 @@ function Carousel({ children: slides }) {
         alignItems="center"
         justifyContent="space-between"
       >
-        <CircleChevronLeft size="40px" cursor="pointer" onClick={prev} />
-        <CircleChevronRight size="40px" cursor="pointer" onClick={next} />
+        <CircleChevronLeft
+          size="40px"
+          cursor="pointer"
+          color="white"
+          onClick={prev}
+        />
+        <CircleChevronRight
+          size="40px"
+          cursor="pointer"
+          color="white"
+          onClick={next}
+        />
       </Box>
-      y
       <Flex
         position="absolute"
-        bottom="20px"
+        bottom="0"
         left="0"
         right="0"
         height="40px"
         justifyContent="center"
         alignItems="center"
-        gap="1rem"
+        gap=".5rem"
       >
         {slides.map((img, index) => (
           <div
