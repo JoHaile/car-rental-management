@@ -1,7 +1,7 @@
 import "../components/horizontal-scroll/horizontal.css";
 import testimonial from "../../testimonial.json";
 import { HStack, Card, Heading, Center } from "@chakra-ui/react";
-import { Star } from "lucide-react";
+import { Star, Verified } from "lucide-react";
 
 function Testimonial() {
   const threeStar = [
@@ -31,8 +31,8 @@ function Testimonial() {
         display="flex"
         flexDirection="column"
       >
-        <Heading size="4xl" textTransform="capitalize">
-          What our customers say about us
+        <Heading size={{ base: "2xl", lg: "4xl" }} textTransform="capitalize">
+          What our customers say
         </Heading>
         <Heading color="whiteAlpha.800">
           Real Experiences Genuine Reviews.
@@ -45,7 +45,7 @@ function Testimonial() {
             <Card.Root
               color={"whiteAlpha.800"}
               key={index}
-              width="300px"
+              width={{ base: "250px", lg: "300px" }}
               mb="2rem"
             >
               <Card.Body pb={0}>{test.comment}</Card.Body>
@@ -60,7 +60,10 @@ function Testimonial() {
               </Card.Footer>
 
               <Card.Footer margin={0}>
-                <HStack py={2}>{test.reviewer}</HStack>
+                <HStack py={2}>
+                  {test.reviewer}
+                  <Verified fill="royalblue" size="20px" />
+                </HStack>
               </Card.Footer>
             </Card.Root>
           ))}
