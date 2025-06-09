@@ -10,8 +10,8 @@ function HomePage() {
       <Hero />
       <HorizontalScroll />
       <Features />
-      <Testimonial />
       <Mission />
+      <Testimonial />
     </>
   );
 }
