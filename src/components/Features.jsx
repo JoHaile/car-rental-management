@@ -6,7 +6,7 @@ import insurance from "../assets/img/insurance.jpg";
 function Features() {
   return (
     <>
-      <Heading as="h1" textAlign="center" m="5rem 0 2rem 0" size="3xl">
+      <Heading as="h1" textAlign="center" my="5rem" size="4xl">
         why rent from us?
       </Heading>
 
@@ -15,6 +15,7 @@ function Features() {
         justifyItems="center"
         gap={{ base: "1rem", md: "3rem" }}
         px={{ base: "1rem", md: "3rem", lg: "9rem" }}
+        mb="10rem"
         className="feature"
         transition="all .5s ease"
       >

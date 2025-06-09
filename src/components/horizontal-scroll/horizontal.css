@@ -1,23 +1,39 @@
 .scroll-container {
   display: flex;
   align-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
   padding: 0 2.5vw;
-  height: 20vh;
+  /* height: 20vh; */
   background-color: transparent;
   position: relative;
 }
+
 .scroll-container::after {
   content: "";
   position: absolute;
   inset: 0;
 
-  background: linear-gradient(90deg, #000000 0%, #57c78600 50%, #000000 100%);
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    #57c78600 20%,
+    #57c78600 80%,
+    #000000 100%
+  );
 }
+
+/*? for the logo slider */
 .scroll-container ul {
   display: flex;
   gap: 100px;
-  animation: scroll-infinite 30s linear infinite;
+  animation: scroll-infinite 20s linear infinite;
+}
+
+/*? for the testimonial slider */
+.scroll-container .slider {
+  display: flex;
+  gap: 50px;
+  animation: scroll-infinite 400s linear infinite;
 }
 
 @keyframes scroll-infinite {

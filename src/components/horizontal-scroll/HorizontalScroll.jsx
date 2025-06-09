@@ -9,7 +9,7 @@ import tesla from "../../assets/car-logos/tesla.svg";
 import toyota from "../../assets/car-logos/toyota.svg";
 import volkswagen from "../../assets/car-logos/volkswagen.svg";
 import audi from "../../assets/car-logos/audi.svg";
-import "./style.css";
+import "./horizontal.css";
 
 function HorizontalScroll() {
   return (
