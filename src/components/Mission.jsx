@@ -1,9 +1,9 @@
 import Carousel from "./carousel/carousel";
 import { Text, Grid, GridItem, Flex, Button, Heading } from "@chakra-ui/react";
-import car1 from "../assets/chevrolet/2018-chevrolet-impala-99leadgallery-1529679404.jpg";
-import car2 from "../assets/chevrolet/2018-chevrolet-impala-103-1529679402.jpg";
-import car3 from "../assets/chevrolet/2018-chevrolet-impala-105-1529679402.jpg";
-import car4 from "../assets/chevrolet/2018-chevrolet-impala-106-1529679402.jpg";
+import car1 from "../assets/mission/2018-chevrolet-impala-99leadgallery-1529679404.jpg";
+import car2 from "../assets/mission/2018-chevrolet-impala-103-1529679402.jpg";
+import car3 from "../assets/mission/2018-chevrolet-impala-105-1529679402.jpg";
+import car4 from "../assets/mission/2018-chevrolet-impala-106-1529679402.jpg";
 import { NavLink } from "react-router-dom";
 
 const cars = [car1, car2, car3, car4];
@@ -55,12 +55,12 @@ function Mission() {
 
       <GridItem
         colSpan={{ base: 2, md: 1 }}
-        // alignContent="center"
+        alignContent="center"
         overflow="hidden"
       >
         <Carousel>
           {cars.map((img, index) => (
-            <img key={index} src={img} />
+            <img key={index} src={img} width="100%" />
           ))}
         </Carousel>
       </GridItem>

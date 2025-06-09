@@ -1,5 +1,7 @@
 import { Grid, Box, Heading, Image, Center, Flex } from "@chakra-ui/react";
 import selection from "../assets/img/wide-selection.webp";
+import booking from "../assets/img/online-booking.jpg";
+import insurance from "../assets/img/insurance.jpg";
 
 function Features() {
   return (
@@ -40,7 +42,7 @@ function Features() {
         />
 
         <Image
-          src={selection}
+          src={booking}
           borderRadius="l1"
           aspectRatio={16 / 9}
           _hover={{
@@ -76,7 +78,7 @@ function Features() {
           elegant journey.
         </Flex>
         <Image
-          src={selection}
+          src={insurance}
           borderRadius="l1"
           aspectRatio={16 / 9}
           _hover={{
