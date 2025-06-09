@@ -25,15 +25,28 @@ h1 {
   text-transform: uppercase;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 0 2.5vw;
-  background: purple;
+li {
+  list-style-type: none;
+  padding: 0;
+  text-transform: capitalize;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.25s ease;
+}
+li:hover {
+  color: royalblue;
+}
+.icon {
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+.icon:hover {
+  color: royalblue;
+  scale: 1.25;
+}
 /* drop-down menu */
 
 .menu {

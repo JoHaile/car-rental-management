@@ -15,7 +15,7 @@ function HomePage() {
       <Mission />
       <Testimonial />
       <Callout />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

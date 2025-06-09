@@ -5,23 +5,23 @@ import { Star, Verified } from "lucide-react";
 
 function Testimonial() {
   const threeStar = [
-    <Star fill="yellow" />,
-    <Star fill="yellow" />,
-    <Star fill="yellow" />,
-    <Star fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
   ];
   const fourStar = [
-    <Star fill="yellow" />,
-    <Star fill="yellow" />,
-    <Star fill="yellow" />,
-    <Star fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
   ];
   const fiveStar = [
-    <Star fill="yellow" />,
-    <Star fill="yellow" />,
-    <Star fill="yellow" />,
-    <Star fill="yellow" />,
-    <Star fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
+    <Star size="17px" color="yellow" fill="yellow" />,
   ];
 
   return (
@@ -51,7 +51,7 @@ function Testimonial() {
               <Card.Body pb={0}>{test.comment}</Card.Body>
 
               <Card.Footer>
-                Rating:
+                Ratings:
                 {test.rating === 4
                   ? fourStar.map((p, i) => <div key={i}>{p}</div>)
                   : test.rating === 5
