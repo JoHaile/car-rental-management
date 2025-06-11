@@ -4,7 +4,7 @@ import { BiChevronDown } from "react-icons/bi";
 import { NavLink } from "react-router-dom";
 import { BiArrowFromLeft } from "react-icons/bi";
 import { useState } from "react";
-import { Hamburger, HamburgerIcon, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 function NavBar() {
   const [ham, setHam] = useState(false);

@@ -17,9 +17,9 @@ function Hero() {
             Rent yours today.
           </Heading>
 
-          <NavLink className="drop-link" to="/booking">
+          <NavLink className="drop-link" to="/fleets">
             <Button rounded="l1" mt="2rem" colorPalette="blue">
-              Book Now <BiArrowFromLeft />
+              Browse A Car <BiArrowFromLeft />
             </Button>
           </NavLink>
         </Box>

@@ -4,7 +4,7 @@ import car1 from "../assets/mission/2018-chevrolet-impala-99leadgallery-15296794
 import car2 from "../assets/mission/2018-chevrolet-impala-103-1529679402.jpg";
 import car3 from "../assets/mission/2018-chevrolet-impala-105-1529679402.jpg";
 import car4 from "../assets/mission/2018-chevrolet-impala-106-1529679402.jpg";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const cars = [car1, car2, car3, car4];
 
@@ -34,13 +34,13 @@ function Mission() {
           choice for mobility—whether for business, travel, or adventure.
         </Text>
         <Flex gap="1rem" mt="1rem">
-          <NavLink to="/fleets">
+          <Link to="/fleets">
             <Button borderRadius="l1" colorPalette="blue">
               See All Vehicles
             </Button>
-          </NavLink>
+          </Link>
 
-          <NavLink to="about">
+          <Link to="/about">
             <Button
               borderRadius="l1"
               colorPalette="blackAlpha"
@@ -49,7 +49,7 @@ function Mission() {
             >
               About Us
             </Button>
-          </NavLink>
+          </Link>
         </Flex>
       </GridItem>
 
