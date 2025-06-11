@@ -13,8 +13,8 @@ function Features() {
       <Grid
         gridTemplateColumns={{ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" }}
         justifyItems="center"
-        gap={{ base: "1rem", md: "3rem" }}
-        px={{ base: "1rem", md: "3rem", lg: "9rem" }}
+        gap={{ base: "5rem", md: "3rem" }}
+        px={{ base: "2rem", md: "3rem", lg: "9rem" }}
         mb="10rem"
         className="feature"
         transition="all .5s ease"

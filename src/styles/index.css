@@ -12,7 +12,6 @@ body {
   margin: auto;
   min-height: 100vh;
   position: relative;
-  padding-bottom: 25rem;
 }
 
 /* nav-bar */
@@ -52,6 +51,7 @@ li:hover {
 
 .menu {
   position: relative;
+  z-index: 2;
 }
 
 .drop-menu {
@@ -99,8 +99,42 @@ li:hover {
   z-index: 1;
 }
 
+/* nav bar */
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-right: 2.5vw;
+}
+
+.ham {
+  display: none;
+}
+
+/* .footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+} */
+
 @media (max-width: 768px) {
-  body {
-    padding-bottom: 36rem;
+  .ham {
+    display: block;
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .display {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #1a1a1a;
   }
 }

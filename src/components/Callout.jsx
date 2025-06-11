@@ -11,7 +11,9 @@ function Callout() {
         bgColor="royalblue"
         py="2rem"
       >
-        <Heading size="4xl">Ready for your trip?</Heading>
+        <Heading size="4xl" textAlign="center">
+          Ready for your trip?
+        </Heading>
         <Text pb="1rem">Reserve your car now in just a few clicks.</Text>
         <NavLink to="/booking">
           <Button>Book A Car</Button>
