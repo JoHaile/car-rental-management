@@ -8,13 +8,18 @@ function Footer() {
   return (
     <Grid
       gridTemplateColumns={{ base: "repeat(1fr, 3)", md: "repeat(3, 1fr)" }}
-      padding={{ base: "2.5rem", md: "2.5rem" }}
+      gap="2rem"
+      paddingX={{ base: "2.5rem", md: "2.5rem" }}
+      pt="10rem"
       justifyItems="center"
       bgColor="whiteAlpha.200"
       color="whiteAlpha.800"
+      position="absolute"
+      bottom="0"
+      left="0"
     >
       <Flex order={{ base: "3", md: "0" }}>
-        <Image src={logo} />
+        <Image src={logo} objectFit="cover" />
       </Flex>
 
       <Flex gap="2rem">
@@ -60,7 +65,7 @@ function Footer() {
           </NavLink>
         </Box>
       </Flex>
-      <Flex gap="3rem" alignItems="center">
+      <Flex gap="3rem" alignItems="center" mb="10rem">
         <Link to="https://facebook.com/" target="_blank">
           <Facebook className="icon" />
         </Link>

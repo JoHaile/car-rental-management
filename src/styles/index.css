@@ -12,6 +12,7 @@ body {
   margin: auto;
   min-height: 100vh;
   position: relative;
+  padding-bottom: 25rem;
 }
 
 /* nav-bar */
@@ -98,4 +99,8 @@ li:hover {
   z-index: 1;
 }
 
-/* features */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 36rem;
+  }
+}
