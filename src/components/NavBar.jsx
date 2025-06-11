@@ -25,30 +25,38 @@ function NavBar() {
       </NavLink>
 
       <div className={ham ? "nav-list display" : "nav-list display-none"}>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/fleets">Our Fleets</NavLink>
-        <NavLink to="/about">About Us</NavLink>
+        <NavLink className="nav-links" to="/">
+          Home
+        </NavLink>
+        <NavLink className="nav-links" to="/fleets">
+          Our Fleets
+        </NavLink>
+        <NavLink className="nav-links" to="/about">
+          About Us
+        </NavLink>
 
         {/* make it on hover to display  */}
         <div className="menu">
-          <Link className="drop-link">
+          <Link className="drop-link nav-links">
             Company <BiChevronDown />
           </Link>
 
           <Box className="drop-menu">
-            <NavLink to="/policies" className="drop-link">
+            <NavLink to="/policies" className="drop-link nav-links">
               Rental Policies <BiArrowFromLeft />
             </NavLink>
-            <NavLink to="/requirements" className="drop-link">
+            <NavLink to="/requirements" className="drop-link nav-links">
               Rental Requirements <BiArrowFromLeft />
             </NavLink>
-            <NavLink to="/address" className="drop-link">
+            <NavLink to="/address" className="drop-link nav-links">
               Our Address <BiArrowFromLeft />
             </NavLink>
           </Box>
         </div>
 
-        <NavLink to="/faq">FAQs</NavLink>
+        <NavLink className="nav-links" to="/faq">
+          FAQs
+        </NavLink>
 
         <NavLink to="/contact" className="d-n">
           <Button rounded="l1" ml="1rem">

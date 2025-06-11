@@ -19,6 +19,14 @@ body {
   z-index: 5;
 }
 
+.nav-links {
+  transition: color 0.2s ease-in;
+}
+
+.nav-links:hover {
+  color: royalblue;
+}
+
 /* Typography */
 
 h1 {
@@ -49,6 +57,9 @@ li:hover {
 }
 /* drop-down menu */
 
+.active {
+  color: royalblue;
+}
 .menu {
   position: relative;
   z-index: 2;
@@ -62,6 +73,7 @@ li:hover {
   left: -35px;
   gap: 1rem;
   background-color: black;
+  z-index: 2;
 }
 
 .menu:hover .drop-menu {
