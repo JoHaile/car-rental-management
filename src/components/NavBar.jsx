@@ -50,12 +50,18 @@ function NavBar() {
 
         <NavLink to="/faq">FAQs</NavLink>
 
-        <NavLink to="/contact">
+        <NavLink to="/contact" className="d-n">
           <Button rounded="l1" ml="1rem">
-            Contact Us{" "}
+            Contact Us
           </Button>
         </NavLink>
       </div>
+
+      <NavLink to="/contact" className="display-none">
+        <Button rounded="l1" ml="1rem">
+          Contact Us
+        </Button>
+      </NavLink>
 
       <button
         className="ham"

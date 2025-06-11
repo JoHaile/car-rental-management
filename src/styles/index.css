@@ -118,6 +118,11 @@ li:hover {
   z-index: -1;
 } */
 
+/* this is for the contact button */
+.d-n {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .ham {
     display: block;
@@ -125,6 +130,10 @@ li:hover {
 
   .display-none {
     display: none;
+  }
+
+  .d-n {
+    display: block;
   }
 
   .display {

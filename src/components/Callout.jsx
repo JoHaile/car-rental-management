@@ -10,6 +10,7 @@ function Callout() {
         flexDir="column"
         bgColor="royalblue"
         py="2rem"
+        mb="2rem"
       >
         <Heading size="4xl" textAlign="center">
           Ready for your trip?
