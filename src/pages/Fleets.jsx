@@ -10,12 +10,11 @@ import {
 import image from "../assets/img/wide-selection.webp";
 import data from "../../db.json";
 import CarsCard from "../components/CarsCard";
-import { useEffect } from "react";
+import scrollTop from "../components/scrollTop";
 
 function Fleets() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // to make the page scroll to the top on mount
+  scrollTop();
 
   return (
     <>
@@ -45,7 +44,7 @@ function Fleets() {
           side bar
         </GridItem>
 
-        <GridItem colSpan={5} p={{ base: "1rem" }}>
+        <GridItem colSpan={5} p={{ base: ".5rem", md: "1rem" }}>
           <SimpleGrid
             minChildWidth={{ base: "250px", md: "300px" }}
             gap="1rem"

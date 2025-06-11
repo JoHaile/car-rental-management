@@ -1,5 +1,4 @@
 import { Box, Card, Image, Text } from "@chakra-ui/react";
-import { listAnatomy } from "@chakra-ui/react/anatomy";
 import { NavLink } from "react-router-dom";
 
 function CarsCard({ cars }) {
@@ -9,10 +8,8 @@ function CarsCard({ cars }) {
         <Image src={cars.photos[0]} />
 
         <Card.Header>
-          {cars.make}
-          <Card.Description>
-            {cars.year} {cars.model}
-          </Card.Description>
+          {cars.make} {cars.model}
+          <Card.Description>{cars.year}</Card.Description>
         </Card.Header>
 
         <Box display="flex" justifyContent="space-between" p="24px">
@@ -24,7 +21,7 @@ function CarsCard({ cars }) {
             <Text>Available in 2 days</Text>
           )}
         </Box>
-        <NavLink to="/booking">Book now</NavLink>
+        <NavLink to="/booking">Book </NavLink>
       </Card.Root>
     </>
   );

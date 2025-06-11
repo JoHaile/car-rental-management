@@ -1,5 +1,5 @@
-import { Box, Grid, Image, Flex, Heading } from "@chakra-ui/react";
-import logo from "../assets/logo.png";
+import { Box, Grid, Image, Flex, Heading, Text } from "@chakra-ui/react";
+import data from "../../db.json";
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Link, NavLink } from "react-router-dom";
 import { BiArrowFromLeft } from "react-icons/bi";
@@ -17,12 +17,15 @@ function Footer() {
         color="whiteAlpha.800"
         px={{ base: "1rem" }}
       >
-        <Flex order={{ base: "3", md: "0" }}>
-          <Image src={logo} objectFit="cover" />
+        <Flex order={{ base: "3", md: "0" }} flexDir="column" gap="1rem">
+          <Heading>{data.rentalCompany.name}</Heading>
+          <Text>{data.rentalCompany.contact.phone}</Text>
+          <Text>{data.rentalCompany.contact.email}</Text>
+          <Text>{data.rentalCompany.contact.address}</Text>
         </Flex>
 
         <Flex gap="2rem">
-          <Box>
+          <Box display="flex" flexDir="column" gap="1rem">
             <Heading pb={2}>About Us</Heading>
             <NavLink to="/about">
               <li>
@@ -43,7 +46,7 @@ function Footer() {
             </NavLink>
           </Box>
 
-          <Box>
+          <Box display="flex" flexDir="column" gap=".75rem">
             <Heading pb={2}>Support</Heading>
             <NavLink to="/contact">
               <li>

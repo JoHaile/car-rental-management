@@ -16,7 +16,7 @@ function Callout() {
           Ready for your trip?
         </Heading>
         <Text pb="1rem">Reserve your car now in just a few clicks.</Text>
-        <NavLink to="/booking">
+        <NavLink to="/fleets">
           <Button>Book A Car</Button>
         </NavLink>
       </HStack>
