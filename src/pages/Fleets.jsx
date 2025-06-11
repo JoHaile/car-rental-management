@@ -10,12 +10,8 @@ import {
 import image from "../assets/img/wide-selection.webp";
 import data from "../../db.json";
 import CarsCard from "../components/CarsCard";
-import scrollTop from "../components/scrollTop";
 
 function Fleets() {
-  // to make the page scroll to the top on mount
-  scrollTop();
-
   return (
     <>
       <Box
