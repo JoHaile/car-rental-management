@@ -1,8 +1,8 @@
-import { Accordion } from "@chakra-ui/react";
 import React from "react";
+// import faq from
 
 function Faq() {
-  return <div>FAQs</div>;
+  return <div>ksdh</div>;
 }
 
 export default Faq;

@@ -1,5 +1,5 @@
 import "../components/horizontal-scroll/horizontal.css";
-import testimonial from "../../testimonial.json";
+import testimonial from "../assets/testimonial.json";
 import { HStack, Card, Heading, Center } from "@chakra-ui/react";
 import { Star, Verified } from "lucide-react";
 
