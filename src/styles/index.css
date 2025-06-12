@@ -124,16 +124,21 @@ li:hover {
   display: none;
 }
 
-/* .footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
-} */
-
 /* this is for the contact button */
 .d-n {
   display: none;
+}
+
+.gondar-map {
+  overflow: hidden;
+  padding-bottom: 56.89%;
+  position: relative;
+  height: auto;
+  justify-items: center;
+}
+
+.gondar-map iframe {
+  width: 100%;
 }
 
 @media (max-width: 768px) {
