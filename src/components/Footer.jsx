@@ -1,5 +1,5 @@
 import { Box, Grid, Image, Flex, Heading, Text } from "@chakra-ui/react";
-import data from "../../db.json";
+import data from "../assets/db.json";
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import { Link, NavLink } from "react-router-dom";
 import { BiArrowFromLeft } from "react-icons/bi";

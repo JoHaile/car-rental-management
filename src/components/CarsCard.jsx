@@ -1,5 +1,9 @@
-import { Box, Card, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Card, Image, Text, HStack } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
+import { Cog, Fuel } from "lucide-react";
+import { GiCarSeat } from "react-icons/gi";
+import IconText from "./IconText";
+import { FaHorseHead } from "react-icons/fa";
 
 function CarsCard({ cars }) {
   return (
@@ -12,16 +16,36 @@ function CarsCard({ cars }) {
           <Card.Description>{cars.year}</Card.Description>
         </Card.Header>
 
-        <Box display="flex" justifyContent="space-between" p="24px">
-          <Text>{cars.rentalPricePerDay} Birr</Text>
+        <Box
+          display="flex"
+          justifyContent="space-between"
+          alignItems="center"
+          p="24px"
+        >
+          <Text>
+            <span>{cars.rentalPricePerDay} Birr / Day</span>
+          </Text>
 
-          {cars.availability ? (
-            <Text>Available</Text>
-          ) : (
-            <Text>Available in 2 days</Text>
-          )}
+          <NavLink to="/booking">
+            <Button
+              borderRadius="l1"
+              color="whiteAlpha.800"
+              bgColor="royalblue"
+              size="sm"
+            >
+              Book
+            </Button>
+          </NavLink>
         </Box>
-        <NavLink to="/booking">Book </NavLink>
+
+        <Card.Footer pb={0}>
+          <HStack display="flex" justifyContent="space-between" width="100%">
+            <IconText text={cars.features.transmission} icon={Cog} />
+            <IconText text={cars.features.seats} icon={GiCarSeat} />
+            <IconText text={cars.features.fuelType} icon={Fuel} />
+            <IconText text={cars.horsePower} icon={FaHorseHead} />
+          </HStack>
+        </Card.Footer>
       </Card.Root>
     </>
   );

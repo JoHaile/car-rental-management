@@ -8,7 +8,7 @@ import {
   SimpleGrid,
 } from "@chakra-ui/react";
 import image from "../assets/img/wide-selection.webp";
-import data from "../../db.json";
+import data from "../assets/db.json";
 import CarsCard from "../components/CarsCard";
 
 function Fleets() {
