@@ -1,12 +1,4 @@
-import {
-  Box,
-  Button,
-  Card,
-  Image,
-  Text,
-  HStack,
-  Separator,
-} from "@chakra-ui/react";
+import { Box, Button, Card, Image, Text, HStack } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import { Cog, Fuel } from "lucide-react";
 import { GiCarSeat } from "react-icons/gi";
@@ -31,10 +23,10 @@ function CarsCard({ cars }) {
           p="24px"
         >
           <Text>
-            <span>{cars.rentalPricePerDay} Birr / Day</span>
+            <span>$ {cars.rentalPricePerDay} Birr / Day</span>
           </Text>
 
-          <NavLink to="/booking">
+          <NavLink to={`/booking/${cars.id}`}>
             <Button
               borderRadius="l1"
               color="whiteAlpha.900"

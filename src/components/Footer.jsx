@@ -67,7 +67,7 @@ function Footer() {
             </NavLink>
           </Box>
         </Flex>
-        <Flex gap="3rem" alignItems="center">
+        <Flex gap={{ base: "10px", lg: "3rem" }} alignItems="center">
           <Link to="https://facebook.com/" target="_blank">
             <Facebook className="icon" />
           </Link>
