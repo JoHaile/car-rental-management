@@ -16,7 +16,7 @@ function Faq() {
         {faqs.map((faq, index) => (
           <Accordion.Item key={index} value={faq.question} p={4}>
             <Accordion.ItemTrigger cursor="pointer">
-              <Span flex="1" fontWeight="bold" color="blue.400">
+              <Span flex="1" color="blue.400">
                 {faq.question}
               </Span>
               <Accordion.ItemIndicator />

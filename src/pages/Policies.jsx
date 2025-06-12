@@ -1,4 +1,3 @@
-import React from "react";
 import policy from "../assets/policies.json";
 import { Accordion, Flex, Heading, Span, Text } from "@chakra-ui/react";
 
@@ -18,7 +17,7 @@ function Policies() {
         {policy.generalPolicies.map((pol, index) => (
           <Accordion.Item key={index} value={pol.policyName} p={4}>
             <Accordion.ItemTrigger cursor="pointer">
-              <Span flex="1" fontWeight="bold" color="blue.400">
+              <Span flex="1" color="blue.400">
                 {pol.policyName}
               </Span>
               <Accordion.ItemIndicator />
