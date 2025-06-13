@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import data from "../assets/db.json";
+import data from "../assets/db22";
 import { Image, Box, Grid, SimpleGrid } from "@chakra-ui/react";
 import Carousel from "../components/carousel/Carousel";
 
