@@ -12,7 +12,7 @@ import {
 import image from "../assets/img/wide-selection.webp";
 import CarsCard from "../components/CarsCard";
 import filterCars from "../hooks/filterCars";
-import data from "../assets/db.json";
+import data from "../assets/db22";
 
 function Fleets() {
   const { filterUser, setFilter, filter } = filterCars();

@@ -1,5 +1,5 @@
 import { SimpleGrid, Box, Heading } from "@chakra-ui/react";
-import data from "../assets/db.json";
+import data from "../assets/db22";
 import GoogleMap from "../components/GoogleMap";
 
 function Address() {
