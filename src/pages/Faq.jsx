@@ -1,5 +1,5 @@
 import faqs from "../assets/faqs.json";
-import { Heading, Accordion, Span, Flex } from "@chakra-ui/react";
+import { Heading, Accordion, Span, Flex, Button } from "@chakra-ui/react";
 
 function Faq() {
   return (
@@ -22,9 +22,7 @@ function Faq() {
               <Accordion.ItemIndicator />
             </Accordion.ItemTrigger>
 
-            <Accordion.ItemContent>
-              <Accordion.ItemBody>{faq.answer}</Accordion.ItemBody>
-            </Accordion.ItemContent>
+            <Accordion.ItemContent>{faq.answer}</Accordion.ItemContent>
           </Accordion.Item>
         ))}
       </Accordion.Root>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../assets/db.json";
+import data from "../assets/db22";
 
 const filterCars = () => {
   const [filter, setFilter] = useState({
@@ -7,8 +7,10 @@ const filterCars = () => {
     electric: false,
     hybrid: false,
     price: false,
+    brand: false,
   });
   const price = priceFilter(data);
+  // const brand = brandFilter(price);
   const filterUser = typeFilter(price);
 
   function priceFilter(carData) {
@@ -23,6 +25,10 @@ const filterCars = () => {
 
     return newCars;
   }
+
+  // function brandFilter(carData) {
+  //   const newCars = filter.brand ? carData.filter
+  // }
 
   function typeFilter(carData) {
     const newCars = filter.gas
