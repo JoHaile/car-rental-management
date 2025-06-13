@@ -12,21 +12,24 @@
         "city": "Gondar",
         "address": "12 Kazanchis St., Gondar",
         "phone": "+251-58-123-4567",
-        "openingHours": "8:00 AM - 8:00 PM"
+        "openingHours": "8:00 AM - 8:00 PM",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31149.615698551654!2d37.43513236689505!3d12.60188351130028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x16432903deb758ed%3A0x69a1df405bb22ef2!2sAutomotive%20service!5e0!3m2!1sen!2set!4v1749694924268!5m2!1sen!2set"
       },
       {
         "branchId": "BAH-002",
         "city": "Bahrdar",
         "address": "45 Blue Nile Rd., Bahrdar",
         "phone": "+251-58-765-4321",
-        "openingHours": "7:00 AM - 9:00 PM"
+        "openingHours": "7:00 AM - 9:00 PM",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11760.168378070357!2d37.39821344781037!3d11.596307786744811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1644cf70f0966745%3A0xd11c9ac1d1f1b092!2sBahirdar%20Car%20Rental!5e0!3m2!1sen!2set!4v1749696394465!5m2!1sen!2set"
       },
       {
         "branchId": "ADD-003",
         "city": "Addis Ababa",
         "address": "89 Churchill Ave., Addis Ababa",
         "phone": "+251-11-234-5678",
-        "openingHours": "9:00 AM - 7:00 PM"
+        "openingHours": "9:00 AM - 7:00 PM",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11369.715281467168!2d38.7169569082821!3d8.965887262424284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b86ac5b1a40f3%3A0x9654fdc325137c1a!2sSuzuki%20Automotive%20Service%20plc!5e0!3m2!1sen!2set!4v1749696453320!5m2!1sen!2set"
       }
     ]
   },
@@ -80,14 +83,14 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-115-1603151471.jpg",
-        "./src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-106-1603151471.jpg",
-        "./src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-102-1603151475.jpg",
-        "./src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-122-1603151475.jpg",
-        "./src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-126-1603151478.jpg",
-        "./src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-151-1603151486.jpg",
-        "./src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-154-1603151487.jpg",
-        "./src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-267-1603151491.jpg"
+        "/src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-115-1603151471.jpg",
+        "/src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-106-1603151471.jpg",
+        "/src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-102-1603151475.jpg",
+        "/src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-122-1603151475.jpg",
+        "/src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-126-1603151478.jpg",
+        "/src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-151-1603151486.jpg",
+        "/src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-154-1603151487.jpg",
+        "/src/assets/car-images/toyota/2021-toyota-camry-hybrid-xle-267-1603151491.jpg"
       ]
     },
     {
@@ -134,14 +137,14 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-002-scaled-1636723549.jpg",
-        "./src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-001-scaled-1636723549.jpg",
-        "./src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-003-scaled-1636723549.jpg",
-        "./src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-005-scaled-1636723550.jpg",
-        "./src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-006-scaled-1636723551.jpg",
-        "./src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-023-scaled-1636723542.jpg",
-        "./src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-022-1-scaled-1636723542.jpg",
-        "./src/assets/car-images/toyota/2022-toyota-rav4-trd-offroad-003-scaled-1636723552.jpg"
+        "/src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-002-scaled-1636723549.jpg",
+        "/src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-001-scaled-1636723549.jpg",
+        "/src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-003-scaled-1636723549.jpg",
+        "/src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-005-scaled-1636723550.jpg",
+        "/src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-006-scaled-1636723551.jpg",
+        "/src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-023-scaled-1636723542.jpg",
+        "/src/assets/car-images/toyota/2022-toyota-rav4-se-hybrid-022-1-scaled-1636723542.jpg",
+        "/src/assets/car-images/toyota/2022-toyota-rav4-trd-offroad-003-scaled-1636723552.jpg"
       ]
     },
     {
@@ -189,17 +192,17 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-039-1665768407.jpg",
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-025-1665768400.jpg",
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-002-1665768397.jpg",
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-004-1665769537.jpg",
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-007-1665768410.jpg",
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-008-1665768400.jpg",
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-011-1665769538.jpg",
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-022-1665769539.jpg",
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-055-1665768412.jpg",
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-056-1665768413.jpg",
-        "./src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-058-1665768415.jpg"
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-039-1665768407.jpg",
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-025-1665768400.jpg",
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-002-1665768397.jpg",
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-004-1665769537.jpg",
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-007-1665768410.jpg",
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-008-1665768400.jpg",
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-011-1665769538.jpg",
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-022-1665769539.jpg",
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-055-1665768412.jpg",
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-056-1665768413.jpg",
+        "/src/assets/car-images/toyota/2023-corolla-hybrid-se-rubyflarepearl-058-1665768415.jpg"
       ]
     },
     {
@@ -246,13 +249,13 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/ford/ford-escape-1p5t-se-awd-102-1572012190.jpg",
-        "./src/assets/car-images/ford/ford-escape-1p5t-se-awd-115-331572012242.jpg",
-        "./src/assets/car-images/ford/ford-escape-1p5t-se-awd-117-15720121862.jpg",
-        "./src/assets/car-images/ford/ford-escape-1p5t-se-awd-134-1572012235.jpg",
-        "./src/assets/car-images/ford/ford-escape-2p5t-se-awd-102-1572012190.jpg",
-        "./src/assets/car-images/ford/ford-escape-1p5t-se-awd-155-15720132352.jpg",
-        "./src/assets/car-images/ford/ford-escape-1p5t-se-awd-157-15720132352.jpg"
+        "/src/assets/car-images/ford/ford-escape-1p5t-se-awd-102-1572012190.jpg",
+        "/src/assets/car-images/ford/ford-escape-1p5t-se-awd-115-331572012242.jpg",
+        "/src/assets/car-images/ford/ford-escape-1p5t-se-awd-117-15720121862.jpg",
+        "/src/assets/car-images/ford/ford-escape-1p5t-se-awd-134-1572012235.jpg",
+        "/src/assets/car-images/ford/ford-escape-2p5t-se-awd-102-1572012190.jpg",
+        "/src/assets/car-images/ford/ford-escape-1p5t-se-awd-155-15720132352.jpg",
+        "/src/assets/car-images/ford/ford-escape-1p5t-se-awd-157-15720132352.jpg"
       ]
     },
     {
@@ -304,13 +307,13 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/ford/ford-mustang-gt-california-special-01-1633475577.jpg",
-        "./src/assets/car-images/ford/ford-mustang-gt-california-special-02-163347561922.jpg",
-        "./src/assets/car-images/ford/ford-mustang-stealth-edition-04-1633475402.jpg",
-        "./src/assets/car-images/ford/ford-mustang-gt-california-special-08-1633475589.jpg",
-        "./src/assets/car-images/ford/ford-mustang-stealth-edition-02-1633475393.jpg",
-        "./src/assets/car-images/ford/ford-mustang-stealth-edition-02-16334753923.jpg",
-        "./src/assets/car-images/ford/ford-mustang-stealth-edition-05-163347541722.jpg"
+        "/src/assets/car-images/ford/ford-mustang-gt-california-special-01-1633475577.jpg",
+        "/src/assets/car-images/ford/ford-mustang-gt-california-special-02-163347561922.jpg",
+        "/src/assets/car-images/ford/ford-mustang-stealth-edition-04-1633475402.jpg",
+        "/src/assets/car-images/ford/ford-mustang-gt-california-special-08-1633475589.jpg",
+        "/src/assets/car-images/ford/ford-mustang-stealth-edition-02-1633475393.jpg",
+        "/src/assets/car-images/ford/ford-mustang-stealth-edition-02-16334753923.jpg",
+        "/src/assets/car-images/ford/ford-mustang-stealth-edition-05-163347541722.jpg"
       ]
     },
     {
@@ -356,14 +359,14 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-116-1543873464.jpg",
-        "./src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-118-1543873464.jpg",
-        "./src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-127-1543873467.jpg",
-        "./src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-156-1543873470.jpg",
-        "./src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-202-1543873472222.jpg",
-        "./src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-219-1543873472.jpg",
-        "./src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-227-34531543873475.jpg",
-        "./src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-233-1543873475.jpg"
+        "/src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-116-1543873464.jpg",
+        "/src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-118-1543873464.jpg",
+        "/src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-127-1543873467.jpg",
+        "/src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-156-1543873470.jpg",
+        "/src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-202-1543873472222.jpg",
+        "/src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-219-1543873472.jpg",
+        "/src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-227-34531543873475.jpg",
+        "/src/assets/car-images/ford/ford-f-150-limited-3p5l-crew-cab-233-1543873475.jpg"
       ]
     },
     {
@@ -416,14 +419,14 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/tesla/tesla-model-3-long-range-109-1627583158.jpg",
-        "./src/assets/car-images/tesla/tesla-model-3-dual-motor-215-158695025522.jpg",
-        "./src/assets/car-images/tesla/tesla-model-3-long-range-113-16275831612.jpg",
-        "./src/assets/car-images/tesla/tesla-model-3-102-1574807023.jpg",
-        "./src/assets/car-images/tesla/tesla-model-3-103-1574807024.jpg",
-        "./src/assets/car-images/tesla/tesla-model-3-104-1574807023.jpg",
-        "./src/assets/car-images/tesla/tesla-model-3-126-1574807035.jpg",
-        "./src/assets/car-images/tesla/tesla-model-3-129-157480703w7.jpg"
+        "/src/assets/car-images/tesla/tesla-model-3-long-range-109-1627583158.jpg",
+        "/src/assets/car-images/tesla/tesla-model-3-dual-motor-215-158695025522.jpg",
+        "/src/assets/car-images/tesla/tesla-model-3-long-range-113-16275831612.jpg",
+        "/src/assets/car-images/tesla/tesla-model-3-102-1574807023.jpg",
+        "/src/assets/car-images/tesla/tesla-model-3-103-1574807024.jpg",
+        "/src/assets/car-images/tesla/tesla-model-3-104-1574807023.jpg",
+        "/src/assets/car-images/tesla/tesla-model-3-126-1574807035.jpg",
+        "/src/assets/car-images/tesla/tesla-model-3-129-157480703w7.jpg"
       ]
     },
     {
@@ -471,14 +474,14 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/tesla/tesla-model-s-plaid-108-1638811396.jpg",
-        "./src/assets/car-images/tesla/tesla-model-s-plaid-107-1638811396.jpg",
-        "./src/assets/car-images/tesla/tesla-model-s-plaid-111-1638811396.jpg",
-        "./src/assets/car-images/tesla/tesla-model-s-plaid-106-1638811393.jpg",
-        "./src/assets/car-images/tesla/tesla-model-s-plaid-123-1638811403.jpg",
-        "./src/assets/car-images/tesla/tesla-model-s-plaid-124-1638811403.jpg",
-        "./src/assets/car-images/tesla/tesla-model-s-plaid-104-1638811393.jpg",
-        "./src/assets/car-images/tesla/tesla-model-s-plaid-105-1638811393.jpg"
+        "/src/assets/car-images/tesla/tesla-model-s-plaid-108-1638811396.jpg",
+        "/src/assets/car-images/tesla/tesla-model-s-plaid-107-1638811396.jpg",
+        "/src/assets/car-images/tesla/tesla-model-s-plaid-111-1638811396.jpg",
+        "/src/assets/car-images/tesla/tesla-model-s-plaid-106-1638811393.jpg",
+        "/src/assets/car-images/tesla/tesla-model-s-plaid-123-1638811403.jpg",
+        "/src/assets/car-images/tesla/tesla-model-s-plaid-124-1638811403.jpg",
+        "/src/assets/car-images/tesla/tesla-model-s-plaid-104-1638811393.jpg",
+        "/src/assets/car-images/tesla/tesla-model-s-plaid-105-1638811393.jpg"
       ]
     },
     {
@@ -526,14 +529,14 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/tesla/tesla-model-x-121-656e382517647.jpg",
-        "./src/assets/car-images/tesla/tesla-model-x-102-656e381e71fe4.jpg",
-        "./src/assets/car-images/tesla/tesla-model-x-117-656e3822b0ec0.jpg",
-        "./src/assets/car-images/tesla/tesla-model-x-104-656e381e6bd1c.jpg",
-        "./src/assets/car-images/tesla/tesla-model-x-110-656e382193562.jpg",
-        "./src/assets/car-images/tesla/tesla-model-x-115-656e37efb9036.jpg",
-        "./src/assets/car-images/tesla/tesla-model-x-116-656e38223c5a2.jpg",
-        "./src/assets/car-images/tesla/tesla-model-x-120-656e3823eaaec.jpg"
+        "/src/assets/car-images/tesla/tesla-model-x-121-656e382517647.jpg",
+        "/src/assets/car-images/tesla/tesla-model-x-102-656e381e71fe4.jpg",
+        "/src/assets/car-images/tesla/tesla-model-x-117-656e3822b0ec0.jpg",
+        "/src/assets/car-images/tesla/tesla-model-x-104-656e381e6bd1c.jpg",
+        "/src/assets/car-images/tesla/tesla-model-x-110-656e382193562.jpg",
+        "/src/assets/car-images/tesla/tesla-model-x-115-656e37efb9036.jpg",
+        "/src/assets/car-images/tesla/tesla-model-x-116-656e38223c5a2.jpg",
+        "/src/assets/car-images/tesla/tesla-model-x-120-656e3823eaaec.jpg"
       ]
     },
     {
@@ -582,15 +585,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/bmw/bmw-x5-5.jpg",
-        "./src/assets/car-images/bmw/bmw-x5-15 (2).jpg",
-        "./src/assets/car-images/bmw/bmw-x5-25.jpg",
-        "./src/assets/car-images/bmw/bmw-x5-39.jpg",
-        "./src/assets/car-images/bmw/bmw-x5-55.jpg",
-        "./src/assets/car-images/bmw/bmw-x5-83.jpg",
-        "./src/assets/car-images/bmw/bmw-x5-89.jpg",
-        "./src/assets/car-images/bmw/bmw-x5-95.jpg",
-        "./src/assets/car-images/bmw/bmw-x5-99.jpg"
+        "/src/assets/car-images/bmw/bmw-x5-5.jpg",
+        "/src/assets/car-images/bmw/bmw-x5-15 (2).jpg",
+        "/src/assets/car-images/bmw/bmw-x5-25.jpg",
+        "/src/assets/car-images/bmw/bmw-x5-39.jpg",
+        "/src/assets/car-images/bmw/bmw-x5-55.jpg",
+        "/src/assets/car-images/bmw/bmw-x5-83.jpg",
+        "/src/assets/car-images/bmw/bmw-x5-89.jpg",
+        "/src/assets/car-images/bmw/bmw-x5-95.jpg",
+        "/src/assets/car-images/bmw/bmw-x5-99.jpg"
       ]
     },
     {
@@ -639,15 +642,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/bmw/bmw-m4-convertible-front-three-quarters-65b935df2a97d.jpg",
-        "./src/assets/car-images/bmw/bmw-m4-convertible-front-three-quarters-2-65b935e353193.jpg",
-        "./src/assets/car-images/bmw/bmw-m4-convertible-side-65b935dcb5de1.jpg",
-        "./src/assets/car-images/bmw/bmw-m4-convertible-rear-three-quarters-motion-65b935debaaa3.jpg",
-        "./src/assets/car-images/bmw/bmw-m4-convertible-rear-three-quarters-motion-2-65b935de829cc.jpg",
-        "./src/assets/car-images/bmw/bmw-m4-convertible-rear-65b935e41507e.jpg",
-        "./src/assets/car-images/bmw/bmw-m4-convertible-front-three-quarters-motion-65b935dd23fd5.jpg",
-        "./src/assets/car-images/bmw/bmw-m4-convertible-front-three-quarters-motion-2-65b935dab3854.jpg",
-        "./src/assets/car-images/bmw/bmw-m4-convertible-front-interior-65b935e7630d9.jpg"
+        "/src/assets/car-images/bmw/bmw-m4-convertible-front-three-quarters-65b935df2a97d.jpg",
+        "/src/assets/car-images/bmw/bmw-m4-convertible-front-three-quarters-2-65b935e353193.jpg",
+        "/src/assets/car-images/bmw/bmw-m4-convertible-side-65b935dcb5de1.jpg",
+        "/src/assets/car-images/bmw/bmw-m4-convertible-rear-three-quarters-motion-65b935debaaa3.jpg",
+        "/src/assets/car-images/bmw/bmw-m4-convertible-rear-three-quarters-motion-2-65b935de829cc.jpg",
+        "/src/assets/car-images/bmw/bmw-m4-convertible-rear-65b935e41507e.jpg",
+        "/src/assets/car-images/bmw/bmw-m4-convertible-front-three-quarters-motion-65b935dd23fd5.jpg",
+        "/src/assets/car-images/bmw/bmw-m4-convertible-front-three-quarters-motion-2-65b935dab3854.jpg",
+        "/src/assets/car-images/bmw/bmw-m4-convertible-front-interior-65b935e7630d9.jpg"
       ]
     },
     {
@@ -696,16 +699,16 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/bmw/bmw-m3-124-640f41834bfd2.jpg",
-        "./src/assets/car-images/bmw/bmw-m3-128-640f418745bb4.jpg",
-        "./src/assets/car-images/bmw/bmw-m3-132-640f418cba8de.jpg",
-        "./src/assets/car-images/bmw/bmw-m3-139-640f418e2d344.jpg",
-        "./src/assets/car-images/bmw/bmw-m3-182-640f418b7743e.jpg",
-        "./src/assets/car-images/bmw/bmw-m3-182-640f4380f300b.jpg",
-        "./src/assets/car-images/bmw/bmw-m3-286-640f418f50c30.jpg",
-        "./src/assets/car-images/bmw/bmw-m3-350-640f4198a073d.jpg",
-        "./src/assets/car-images/bmw/bmw-m3-435-640f419b63b1b.jpg",
-        "./src/assets/car-images/bmw/bmw-m3-471-640f41a487977.jpg"
+        "/src/assets/car-images/bmw/bmw-m3-124-640f41834bfd2.jpg",
+        "/src/assets/car-images/bmw/bmw-m3-128-640f418745bb4.jpg",
+        "/src/assets/car-images/bmw/bmw-m3-132-640f418cba8de.jpg",
+        "/src/assets/car-images/bmw/bmw-m3-139-640f418e2d344.jpg",
+        "/src/assets/car-images/bmw/bmw-m3-182-640f418b7743e.jpg",
+        "/src/assets/car-images/bmw/bmw-m3-182-640f4380f300b.jpg",
+        "/src/assets/car-images/bmw/bmw-m3-286-640f418f50c30.jpg",
+        "/src/assets/car-images/bmw/bmw-m3-350-640f4198a073d.jpg",
+        "/src/assets/car-images/bmw/bmw-m3-435-640f419b63b1b.jpg",
+        "/src/assets/car-images/bmw/bmw-m3-471-640f41a487977.jpg"
       ]
     },
     {
@@ -753,15 +756,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/honda/honda-civic-sedan-111-1623810391.jpg",
-        "./src/assets/car-images/honda/honda-civic-sedan-102-1623810387.jpg",
-        "./src/assets/car-images/honda/honda-civic-sedan-108-1623810386.jpg",
-        "./src/assets/car-images/honda/honda-civic-sedan-111-162381039221.jpg",
-        "./src/assets/car-images/honda/honda-civic-sedan-112-162382310389.jpg",
-        "./src/assets/car-images/honda/honda-civic-sedan-113-1623810391.jpg",
-        "./src/assets/car-images/honda/honda-civic-sedan-114-1623810391.jpg",
-        "./src/assets/car-images/honda/honda-civic-sedan-116-1623810391.jpg",
-        "./src/assets/car-images/honda/honda-civic-sedan-117-1623810392.jpg"
+        "/src/assets/car-images/honda/honda-civic-sedan-111-1623810391.jpg",
+        "/src/assets/car-images/honda/honda-civic-sedan-102-1623810387.jpg",
+        "/src/assets/car-images/honda/honda-civic-sedan-108-1623810386.jpg",
+        "/src/assets/car-images/honda/honda-civic-sedan-111-162381039221.jpg",
+        "/src/assets/car-images/honda/honda-civic-sedan-112-162382310389.jpg",
+        "/src/assets/car-images/honda/honda-civic-sedan-113-1623810391.jpg",
+        "/src/assets/car-images/honda/honda-civic-sedan-114-1623810391.jpg",
+        "/src/assets/car-images/honda/honda-civic-sedan-116-1623810391.jpg",
+        "/src/assets/car-images/honda/honda-civic-sedan-117-1623810392.jpg"
       ]
     },
     {
@@ -807,16 +810,16 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/honda/honda-accord-hybrid-103-edit-1604961236.jpg",
-        "./src/assets/car-images/honda/honda-accord-hybrid-109-edit-1604961241.jpg",
-        "./src/assets/car-images/honda/honda-accord-hybrid-119-edit-1604961241.jpg",
-        "./src/assets/car-images/honda/honda-accord-hybrid-124-edit-1604961237.jpg",
-        "./src/assets/car-images/honda/honda-accord-hybrid-141-1604961242.jpg",
-        "./src/assets/car-images/honda/honda-accord-hybrid-155-16049612545.jpg",
-        "./src/assets/car-images/honda/honda-accord-hybrid-176-1604961250.jpg",
-        "./src/assets/car-images/honda/honda-accord-hybrid-203-1604961256.jpg",
-        "./src/assets/car-images/honda/honda-accord-hybrid-254-1604961257.jpg",
-        "./src/assets/car-images/honda/honda-accord-hybrid-272-1604961259.jpg"
+        "/src/assets/car-images/honda/honda-accord-hybrid-103-edit-1604961236.jpg",
+        "/src/assets/car-images/honda/honda-accord-hybrid-109-edit-1604961241.jpg",
+        "/src/assets/car-images/honda/honda-accord-hybrid-119-edit-1604961241.jpg",
+        "/src/assets/car-images/honda/honda-accord-hybrid-124-edit-1604961237.jpg",
+        "/src/assets/car-images/honda/honda-accord-hybrid-141-1604961242.jpg",
+        "/src/assets/car-images/honda/honda-accord-hybrid-155-16049612545.jpg",
+        "/src/assets/car-images/honda/honda-accord-hybrid-176-1604961250.jpg",
+        "/src/assets/car-images/honda/honda-accord-hybrid-203-1604961256.jpg",
+        "/src/assets/car-images/honda/honda-accord-hybrid-254-1604961257.jpg",
+        "/src/assets/car-images/honda/honda-accord-hybrid-272-1604961259.jpg"
       ]
     },
     {
@@ -862,15 +865,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-110-1643220755jpg.jpg",
-        "./src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltup-679-1629297045.jpg.jpg",
-        "./src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-109-1643220748jpg.jpg",
-        "./src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-108-1643220682jpg.jpg",
-        "./src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-112-1643220756jpg.jpg",
-        "./src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-118-1643220801jpg.jpg",
-        "./src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-133-1643220939jpg.jpg",
-        "./src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-136-1643220943jpg.jpg",
-        "./src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-138-1643220981jpg.jpg"
+        "/src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-110-1643220755jpg.jpg",
+        "/src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltup-679-1629297045.jpg.jpg",
+        "/src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-109-1643220748jpg.jpg",
+        "/src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-108-1643220682jpg.jpg",
+        "/src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-112-1643220756jpg.jpg",
+        "/src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-118-1643220801jpg.jpg",
+        "/src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-133-1643220939jpg.jpg",
+        "/src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-136-1643220943jpg.jpg",
+        "/src/assets/car-images/honda/2021-honda-cr-v-hybrid-awd-touring-ltwrap-138-1643220981jpg.jpg"
       ]
     },
     {
@@ -916,15 +919,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/chevrolet/2018-chevrolet-impala-112-1529679404.jpg",
-        "./src/assets/car-images/chevrolet/2018-chevrolet-impala-108-1529679402.jpg",
-        "./src/assets/car-images/chevrolet/2018-chevrolet-impala-99leadgallery-1529679404.jpg",
-        "./src/assets/car-images/chevrolet/2018-chevrolet-impala-103-1529679402.jpg",
-        "./src/assets/car-images/chevrolet/2018-chevrolet-impala-105-1529679402.jpg",
-        "./src/assets/car-images/chevrolet/2018-chevrolet-impala-106-1529679402.jpg",
-        "./src/assets/car-images/chevrolet/2018-chevrolet-impala-110-1529679404.jpg",
-        "./src/assets/car-images/chevrolet/2018-chevrolet-impala-111-1529679404.jpg",
-        "./src/assets/car-images/chevrolet/2018-chevrolet-impala-128-1529679408.jpg"
+        "/src/assets/car-images/chevrolet/2018-chevrolet-impala-112-1529679404.jpg",
+        "/src/assets/car-images/chevrolet/2018-chevrolet-impala-108-1529679402.jpg",
+        "/src/assets/car-images/chevrolet/2018-chevrolet-impala-99leadgallery-1529679404.jpg",
+        "/src/assets/car-images/chevrolet/2018-chevrolet-impala-103-1529679402.jpg",
+        "/src/assets/car-images/chevrolet/2018-chevrolet-impala-105-1529679402.jpg",
+        "/src/assets/car-images/chevrolet/2018-chevrolet-impala-106-1529679402.jpg",
+        "/src/assets/car-images/chevrolet/2018-chevrolet-impala-110-1529679404.jpg",
+        "/src/assets/car-images/chevrolet/2018-chevrolet-impala-111-1529679404.jpg",
+        "/src/assets/car-images/chevrolet/2018-chevrolet-impala-128-1529679408.jpg"
       ]
     },
     {
@@ -970,14 +973,14 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-105-6705452bea744.jpg",
-        "./src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-117-67110e11a7777.jpg",
-        "./src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-121-67110e1a53b257.jpg",
-        "./src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-131-67110e22a5e49.jpg",
-        "./src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-132-s67110e2133505.jpg",
-        "./src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-134-67110e22105393.jpg",
-        "./src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-116-67054531e69c4.jpg",
-        "./src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-115-67054531af8a7.jpg"
+        "/src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-105-6705452bea744.jpg",
+        "/src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-117-67110e11a7777.jpg",
+        "/src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-121-67110e1a53b257.jpg",
+        "/src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-131-67110e22a5e49.jpg",
+        "/src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-132-s67110e2133505.jpg",
+        "/src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-134-67110e22105393.jpg",
+        "/src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-116-67054531e69c4.jpg",
+        "/src/assets/car-images/chevrolet/2025-chevrolet-equinox-rs-awd-115-67054531af8a7.jpg"
       ]
     },
     {
@@ -1024,14 +1027,14 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/chevrolet/2018-chevrolet-malibu-rs-first-drive-105-1535341862.jpg",
-        "./src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-104-1568289282.jpg",
-        "./src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-105-1568289284.jpg",
-        "./src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-117-1568289288.jpg",
-        "./src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-125-1568289292.jpg",
-        "./src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-127-1568289292.jpg",
-        "./src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-112-1568289285.jpg",
-        "./src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-109-1568289285.jpg"
+        "/src/assets/car-images/chevrolet/2018-chevrolet-malibu-rs-first-drive-105-1535341862.jpg",
+        "/src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-104-1568289282.jpg",
+        "/src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-105-1568289284.jpg",
+        "/src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-117-1568289288.jpg",
+        "/src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-125-1568289292.jpg",
+        "/src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-127-1568289292.jpg",
+        "/src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-112-1568289285.jpg",
+        "/src/assets/car-images/chevrolet/2019-chevrolet-malibu-rs-109-1568289285.jpg"
       ]
     },
     {
@@ -1079,15 +1082,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-118-1525800592.jpg",
-        "./src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-102-1525800589.jpg",
-        "./src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-104-1525800589.jpg",
-        "./src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-107-1525800590.jpg",
-        "./src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-109-1525800590.jpg",
-        "./src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-110-1525800590.jpg",
-        "./src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-112-1525800591.jpg",
-        "./src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-114-1525800591.jpg",
-        "./src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-140-1525800597.jpg"
+        "/src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-118-1525800592.jpg",
+        "/src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-102-1525800589.jpg",
+        "/src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-104-1525800589.jpg",
+        "/src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-107-1525800590.jpg",
+        "/src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-109-1525800590.jpg",
+        "/src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-110-1525800590.jpg",
+        "/src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-112-1525800591.jpg",
+        "/src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-114-1525800591.jpg",
+        "/src/assets/car-images/jeep/2018-jeep-jl-wrangler-sport-140-1525800597.jpg"
       ]
     },
     {
@@ -1134,15 +1137,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-105-663b990b744d9.jpg",
-        "./src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-104-663b990cc50fc.jpg",
-        "./src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-101-663b990b394b2.jpg",
-        "./src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-102-663b990cbac86.jpg",
-        "./src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-103-663b990c5fecb.jpg",
-        "./src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-106-663b990b2a457.jpg",
-        "./src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-107-663b990b38125.jpg",
-        "./src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-112-663b990cdc6a5.jpg",
-        "./src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-120-663b98e1214b8.jpg"
+        "/src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-105-663b990b744d9.jpg",
+        "/src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-104-663b990cc50fc.jpg",
+        "/src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-101-663b990b394b2.jpg",
+        "/src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-102-663b990cbac86.jpg",
+        "/src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-103-663b990c5fecb.jpg",
+        "/src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-106-663b990b2a457.jpg",
+        "/src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-107-663b990b38125.jpg",
+        "/src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-112-663b990cdc6a5.jpg",
+        "/src/assets/car-images/jeep/2024-jeep-grand-cherokee-summit-reserve-120-663b98e1214b8.jpg"
       ]
     },
     {
@@ -1191,15 +1194,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-0955-1673454544.jpg",
-        "./src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1003-1673454559.jpg",
-        "./src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1054-1673454570.jpg",
-        "./src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1101-1673454551.jpg",
-        "./src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1143-1673454572.jpg",
-        "./src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1179-1673454581.jpg",
-        "./src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1204-1673454583.jpg",
-        "./src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1235-1673454580.jpg",
-        "./src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1377-1673454586.jpg"
+        "/src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-0955-1673454544.jpg",
+        "/src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1003-1673454559.jpg",
+        "/src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1054-1673454570.jpg",
+        "/src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1101-1673454551.jpg",
+        "/src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1143-1673454572.jpg",
+        "/src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1179-1673454581.jpg",
+        "/src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1204-1673454583.jpg",
+        "/src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1235-1673454580.jpg",
+        "/src/assets/car-images/jeep/2023-jeep-gladiator-overland-diesel-1377-1673454586.jpg"
       ]
     },
     {
@@ -1247,15 +1250,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/vols/2019-volkswagen-golf-1-4t-103-1542320895.jpg",
-        "./src/assets/car-images/vols/2019-volkswagen-golf-1-4t-104-1542320903.jpg",
-        "./src/assets/car-images/vols/2019-volkswagen-golf-1-4t-106-1542320895.jpg",
-        "./src/assets/car-images/vols/2019-volkswagen-golf-1-4t-108-1542320902.jpg",
-        "./src/assets/car-images/vols/2019-volkswagen-golf-1-4t-109-1542320906.jpg",
-        "./src/assets/car-images/vols/2019-volkswagen-golf-1-4t-111-1542320900.jpg",
-        "./src/assets/car-images/vols/2019-volkswagen-golf-1-4t-115-1542320902.jpg",
-        "./src/assets/car-images/vols/2019-volkswagen-golf-1-4t-117-1542320910.jpg",
-        "./src/assets/car-images/vols/2019-volkswagen-golf-1-4t-119-1542320905.jpg"
+        "/src/assets/car-images/vols/2019-volkswagen-golf-1-4t-103-1542320895.jpg",
+        "/src/assets/car-images/vols/2019-volkswagen-golf-1-4t-104-1542320903.jpg",
+        "/src/assets/car-images/vols/2019-volkswagen-golf-1-4t-106-1542320895.jpg",
+        "/src/assets/car-images/vols/2019-volkswagen-golf-1-4t-108-1542320902.jpg",
+        "/src/assets/car-images/vols/2019-volkswagen-golf-1-4t-109-1542320906.jpg",
+        "/src/assets/car-images/vols/2019-volkswagen-golf-1-4t-111-1542320900.jpg",
+        "/src/assets/car-images/vols/2019-volkswagen-golf-1-4t-115-1542320902.jpg",
+        "/src/assets/car-images/vols/2019-volkswagen-golf-1-4t-117-1542320910.jpg",
+        "/src/assets/car-images/vols/2019-volkswagen-golf-1-4t-119-1542320905.jpg"
       ]
     },
     {
@@ -1302,15 +1305,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/vols/2020-volkswagen-passat-se-102-1592230871.jpg",
-        "./src/assets/car-images/vols/2020-volkswagen-passat-se-106-1592230871.jpg",
-        "./src/assets/car-images/vols/2020-volkswagen-passat-se-108-1592230874.jpg",
-        "./src/assets/car-images/vols/2020-volkswagen-passat-se-109-1592230874.jpg",
-        "./src/assets/car-images/vols/2020-volkswagen-passat-se-110-1592230874.jpg",
-        "./src/assets/car-images/vols/2020-volkswagen-passat-se-111-1592230874.jpg",
-        "./src/assets/car-images/vols/2020-volkswagen-passat-se-111-w1592230874.jpg",
-        "./src/assets/car-images/vols/2020-volkswagen-passat-se-112-1592230875.jpg",
-        "./src/assets/car-images/vols/2020-volkswagen-passat-se-124-1592230880.jpg"
+        "/src/assets/car-images/vols/2020-volkswagen-passat-se-102-1592230871.jpg",
+        "/src/assets/car-images/vols/2020-volkswagen-passat-se-106-1592230871.jpg",
+        "/src/assets/car-images/vols/2020-volkswagen-passat-se-108-1592230874.jpg",
+        "/src/assets/car-images/vols/2020-volkswagen-passat-se-109-1592230874.jpg",
+        "/src/assets/car-images/vols/2020-volkswagen-passat-se-110-1592230874.jpg",
+        "/src/assets/car-images/vols/2020-volkswagen-passat-se-111-1592230874.jpg",
+        "/src/assets/car-images/vols/2020-volkswagen-passat-se-111-w1592230874.jpg",
+        "/src/assets/car-images/vols/2020-volkswagen-passat-se-112-1592230875.jpg",
+        "/src/assets/car-images/vols/2020-volkswagen-passat-se-124-1592230880.jpg"
       ]
     },
     {
@@ -1356,16 +1359,16 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/vols/2022-volkswagen-tiguan-7-s1631145318.jpg",
-        "./src/assets/car-images/vols/2022-volkswagen-tiguan-1-1631145308.jpg",
-        "./src/assets/car-images/vols/2022-volkswagen-tiguan-3-1631145303.jpg",
-        "./src/assets/car-images/vols/2022-volkswagen-tiguan-6-1631145330.jpg",
-        "./src/assets/car-images/vols/2022-volkswagen-tiguan-8-1631145332.jpg",
-        "./src/assets/car-images/vols/2022-volkswagen-tiguan-9-1631145334.jpg",
-        "./src/assets/car-images/vols/2022-volkswagen-tiguan-10-1631145314.jpg",
-        "./src/assets/car-images/vols/2022-volkswagen-tiguan-17-1631145348.jpg",
-        "./src/assets/car-images/vols/2022-volkswagen-tiguan-25-1631145399.jpg",
-        "./src/assets/car-images/vols/2022-volkswagen-tiguan-27-1631145392.jpg"
+        "/src/assets/car-images/vols/2022-volkswagen-tiguan-7-s1631145318.jpg",
+        "/src/assets/car-images/vols/2022-volkswagen-tiguan-1-1631145308.jpg",
+        "/src/assets/car-images/vols/2022-volkswagen-tiguan-3-1631145303.jpg",
+        "/src/assets/car-images/vols/2022-volkswagen-tiguan-6-1631145330.jpg",
+        "/src/assets/car-images/vols/2022-volkswagen-tiguan-8-1631145332.jpg",
+        "/src/assets/car-images/vols/2022-volkswagen-tiguan-9-1631145334.jpg",
+        "/src/assets/car-images/vols/2022-volkswagen-tiguan-10-1631145314.jpg",
+        "/src/assets/car-images/vols/2022-volkswagen-tiguan-17-1631145348.jpg",
+        "/src/assets/car-images/vols/2022-volkswagen-tiguan-25-1631145399.jpg",
+        "/src/assets/car-images/vols/2022-volkswagen-tiguan-27-1631145392.jpg"
       ]
     },
     {
@@ -1414,17 +1417,17 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-101-1655383529.jpg",
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-102-1655383529.jpg",
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-103-1655383528.jpg",
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-104-1655383528.jpg",
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-107-1655383526.jpg",
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-109-1655383526.jpg",
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-111-1655383530.jpg",
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-112-1655383531.jpg",
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-113-1655383531.jpg",
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-125-1655383536.jpg",
-        "./src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-133-1655383540.jpg"
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-101-1655383529.jpg",
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-102-1655383529.jpg",
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-103-1655383528.jpg",
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-104-1655383528.jpg",
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-107-1655383526.jpg",
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-109-1655383526.jpg",
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-111-1655383530.jpg",
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-112-1655383531.jpg",
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-113-1655383531.jpg",
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-125-1655383536.jpg",
+        "/src/assets/car-images/mercedes/2022-mercedes-benz-c300-4matic-sedan-133-1655383540.jpg"
       ]
     },
     {
@@ -1473,16 +1476,16 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/mercedes/2024-mercedes-benz-e-class-110-64f2208559a3d.jpg",
-        "./src/assets/car-images/mercedes/2024-mercedes-benz-e-class-101-64f2208297eff.jpg",
-        "./src/assets/car-images/mercedes/2024-mercedes-benz-e-class-102-64f220829e4d9.jpg",
-        "./src/assets/car-images/mercedes/2024-mercedes-benz-e-class-111-64f220855636a.jpg",
-        "./src/assets/car-images/mercedes/2024-mercedes-benz-e-class-103-64f2208293e41.jpg",
-        "./src/assets/car-images/mercedes/2024-mercedes-benz-e-class-104-64f220831fbf7.jpg",
-        "./src/assets/car-images/mercedes/2024-mercedes-benz-e-class-112-64f220856a6b5.jpg",
-        "./src/assets/car-images/mercedes/2024-mercedes-benz-e-class-113-64f221bf48068.jpg",
-        "./src/assets/car-images/mercedes/2024-mercedes-benz-e-class-125-64f220884e9ef.jpg",
-        "./src/assets/car-images/mercedes/2024-mercedes-benz-e-class-126-64f22088819c7.jpg"
+        "/src/assets/car-images/mercedes/2024-mercedes-benz-e-class-110-64f2208559a3d.jpg",
+        "/src/assets/car-images/mercedes/2024-mercedes-benz-e-class-101-64f2208297eff.jpg",
+        "/src/assets/car-images/mercedes/2024-mercedes-benz-e-class-102-64f220829e4d9.jpg",
+        "/src/assets/car-images/mercedes/2024-mercedes-benz-e-class-111-64f220855636a.jpg",
+        "/src/assets/car-images/mercedes/2024-mercedes-benz-e-class-103-64f2208293e41.jpg",
+        "/src/assets/car-images/mercedes/2024-mercedes-benz-e-class-104-64f220831fbf7.jpg",
+        "/src/assets/car-images/mercedes/2024-mercedes-benz-e-class-112-64f220856a6b5.jpg",
+        "/src/assets/car-images/mercedes/2024-mercedes-benz-e-class-113-64f221bf48068.jpg",
+        "/src/assets/car-images/mercedes/2024-mercedes-benz-e-class-125-64f220884e9ef.jpg",
+        "/src/assets/car-images/mercedes/2024-mercedes-benz-e-class-126-64f22088819c7.jpg"
       ]
     },
     {
@@ -1531,16 +1534,16 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-109-1598380214.jpg",
-        "./src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-101-1598380213.jpg",
-        "./src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-102-1598380216.jpg",
-        "./src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-104-1598380214.jpg",
-        "./src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-105-1598380218.jpg",
-        "./src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-107-1598380213.jpg",
-        "./src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-108-1598380216.jpg",
-        "./src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-111-1598380217.jpg",
-        "./src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-113-1598380220.jpg",
-        "./src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-115-1598380222.jpg"
+        "/src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-109-1598380214.jpg",
+        "/src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-101-1598380213.jpg",
+        "/src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-102-1598380216.jpg",
+        "/src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-104-1598380214.jpg",
+        "/src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-105-1598380218.jpg",
+        "/src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-107-1598380213.jpg",
+        "/src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-108-1598380216.jpg",
+        "/src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-111-1598380217.jpg",
+        "/src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-113-1598380220.jpg",
+        "/src/assets/car-images/mercedes/2021-mercedes-benz-gla250-4matic-115-1598380222.jpg"
       ]
     },
     {
@@ -1592,15 +1595,15 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-106-1607927016.jpg",
-        "./src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-102-1607927014.jpg",
-        "./src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-124-1607927022.jpg",
-        "./src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-103-1607927014.jpg",
-        "./src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-104-1607927016.jpg",
-        "./src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-107-1607927014.jpg",
-        "./src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-109-1607927014.jpg",
-        "./src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-110-1607927016.jpg",
-        "./src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-127-1607927022.jpg"
+        "/src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-106-1607927016.jpg",
+        "/src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-102-1607927014.jpg",
+        "/src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-124-1607927022.jpg",
+        "/src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-103-1607927014.jpg",
+        "/src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-104-1607927016.jpg",
+        "/src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-107-1607927014.jpg",
+        "/src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-109-1607927014.jpg",
+        "/src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-110-1607927016.jpg",
+        "/src/assets/car-images/audi/2021-audi-a4-45-tfsi-quattro-127-1607927022.jpg"
       ]
     },
     {
@@ -1651,17 +1654,17 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-202-1642524019.jpg",
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-275-1642524016.jpg",
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-299-1642524016.jpg",
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-421-1642524019.jpg",
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-488-1642524019.jpg",
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-539-edit-1642524020.jpg",
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-584-1642524022.jpg",
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-599-1642524026.jpg",
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-604-edit-1642524026.jpg",
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-610-1642524026.jpg",
-        "./src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-631-1642524031.jpg"
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-202-1642524019.jpg",
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-275-1642524016.jpg",
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-299-1642524016.jpg",
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-421-1642524019.jpg",
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-488-1642524019.jpg",
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-539-edit-1642524020.jpg",
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-584-1642524022.jpg",
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-599-1642524026.jpg",
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-604-edit-1642524026.jpg",
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-610-1642524026.jpg",
+        "/src/assets/car-images/audi/2021-audi-q5-phev-premium-plus-631-1642524031.jpg"
       ]
     },
     {
@@ -1713,16 +1716,16 @@
         }
       ],
       "photos": [
-        "./src/assets/car-images/audi/2023-audi-r8-gt-front-1664827956.jpg",
-        "./src/assets/car-images/audi/2023-audi-r8-gt-front-motion-1664827980.jpg",
-        "./src/assets/car-images/audi/2023-audi-r8-gt-front-three-quarters-1664827973.jpg",
-        "./src/assets/car-images/audi/2023-audi-r8-gt-front-three-quarters-motion-3-1664827965..jpg",
-        "./src/assets/car-images/audi/2023-audi-r8-gt-front-three-quarters-motion-1664827979.jpg",
-        "./src/assets/car-images/audi/2023-audi-r8-gt-rear-1664827974.jpg",
-        "./src/assets/car-images/audi/2023-audi-r8-gt-rear-three-quarters-1664827973.jpg",
-        "./src/assets/car-images/audi/2023-audi-r8-gt-side-1664827963.jpg",
-        "./src/assets/car-images/audi/2023-audi-r8-gt-rear-three-quarters-motion-1664827983.jpg",
-        "./src/assets/car-images/audi/2023-audi-r8-gt-door-sill-1664827931.jpg"
+        "/src/assets/car-images/audi/2023-audi-r8-gt-front-1664827956.jpg",
+        "/src/assets/car-images/audi/2023-audi-r8-gt-front-motion-1664827980.jpg",
+        "/src/assets/car-images/audi/2023-audi-r8-gt-front-three-quarters-1664827973.jpg",
+        "/src/assets/car-images/audi/2023-audi-r8-gt-front-three-quarters-motion-3-1664827965..jpg",
+        "/src/assets/car-images/audi/2023-audi-r8-gt-front-three-quarters-motion-1664827979.jpg",
+        "/src/assets/car-images/audi/2023-audi-r8-gt-rear-1664827974.jpg",
+        "/src/assets/car-images/audi/2023-audi-r8-gt-rear-three-quarters-1664827973.jpg",
+        "/src/assets/car-images/audi/2023-audi-r8-gt-side-1664827963.jpg",
+        "/src/assets/car-images/audi/2023-audi-r8-gt-rear-three-quarters-motion-1664827983.jpg",
+        "/src/assets/car-images/audi/2023-audi-r8-gt-door-sill-1664827931.jpg"
       ]
     }
   ]

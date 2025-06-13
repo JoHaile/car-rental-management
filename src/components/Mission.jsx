@@ -1,4 +1,4 @@
-import Carousel from "./carousel/carousel";
+import Carousel from "./carousel/Carousel";
 import { Text, Grid, GridItem, Flex, Button, Heading } from "@chakra-ui/react";
 import car1 from "../assets/mission/2018-chevrolet-impala-99leadgallery-1529679404.jpg";
 import car2 from "../assets/mission/2018-chevrolet-impala-103-1529679402.jpg";

@@ -13,25 +13,28 @@ function Address() {
       >
         {data.rentalCompany.name}
       </Heading>
+
       <SimpleGrid
-        columns={{ base: 1, md: 2, lg: 3 }}
+        columns={{ base: 1 }}
         // spacing={10}
         p={5}
         textAlign="center"
         gap={5}
       >
         {data.rentalCompany.branches.map((brach) => (
-          <Box key={brach.branchId} p={5} borderRadius="md" boxShadow="2xl">
-            <Heading color="royalblue">{brach.city}</Heading>
-            <p>{brach.address}</p>
-            <p>{brach.phone}</p>
-            <strong style={{ color: "royalblue" }}>Opening Hours</strong>
-            <p>{brach.openingHours}</p>
-          </Box>
+          <div key={brach.branchId}>
+            <Box p={5} borderRadius="md" boxShadow="2xl">
+              <Heading color="royalblue">{brach.city}</Heading>
+              <p>{brach.address}</p>
+              <p>{brach.phone}</p>
+              <strong style={{ color: "royalblue" }}>Opening Hours</strong>
+              <p>{brach.openingHours}</p>
+            </Box>
+
+            <GoogleMap mapURL={brach.map} />
+          </div>
         ))}
       </SimpleGrid>
-
-      <GoogleMap />
     </div>
   );
 }

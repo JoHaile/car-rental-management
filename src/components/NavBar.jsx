@@ -13,7 +13,8 @@ function NavBar() {
     // <Center>
     <HStack
       display="flex"
-      justifyContent="space-around"
+      justifyContent="space-between"
+      px={{ base: "1rem", md: "1.rem" }}
       position="relative"
       top="0px"
       width="100%"

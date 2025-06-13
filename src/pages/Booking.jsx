@@ -1,10 +1,11 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import data from "../assets/db.json";
+import { Image, Box, Grid, SimpleGrid } from "@chakra-ui/react";
+import Carousel from "../components/carousel/Carousel";
 
 function Booking() {
   const { id } = useParams();
-  const car = data.cars.find((car) => car.id === id && car);
+  const car = data.cars.filter((car) => car.id === id && car);
 
   if (!car) {
     return <div>Car not found</div>;
@@ -13,14 +14,29 @@ function Booking() {
   console.log(car);
 
   return (
-    <div>
-      <ul>
-        <li>{car.make}</li>
-        <li>{car.model}</li>
-        <li>{car.horsePower}</li>
-        <li>{car.category}</li>
-      </ul>
-    </div>
+    <>
+      {car.map((c, index) => (
+        <SimpleGrid
+          key={c.id}
+          columns={{ base: 1, md: 2 }}
+          gap={{ base: "1rem", md: "1.rem" }}
+        >
+          <Box>
+            <Carousel>
+              {c.photos.map((p, index) => (
+                <Image src={p} key={index} width="100%" />
+              ))}
+            </Carousel>
+          </Box>
+
+          <Box>
+            <li>{c.make}</li>
+            <li>{c.model}</li>
+            <li>{c.horsePower}</li>
+          </Box>
+        </SimpleGrid>
+      ))}
+    </>
   );
 }
 
