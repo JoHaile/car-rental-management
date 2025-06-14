@@ -564,7 +564,7 @@ export default {
       make: "Ford",
       model: "Mustang",
       year: 2022,
-      category: "Sports",
+      category: "Luxury",
       rentalPricePerDay: 3300,
       availability: true,
       description:
@@ -623,7 +623,7 @@ export default {
       make: "Ford",
       model: "F-150",
       year: 2020,
-      category: "Truck",
+      category: "Luxury",
       rentalPricePerDay: 2400,
       availability: true,
       description:
@@ -796,7 +796,7 @@ export default {
       make: "Tesla",
       model: "Model X",
       year: 2021,
-      category: "Electric SUV",
+      category: "Electric",
       rentalPricePerDay: 6000,
       availability: false,
       description:
@@ -852,7 +852,7 @@ export default {
       make: "BMW",
       model: "X5",
       year: 2020,
-      category: "Luxury SUV",
+      category: "Luxury",
       rentalPricePerDay: 4500,
       availability: true,
       description:
@@ -910,7 +910,7 @@ export default {
       make: "BMW",
       model: "3 Series",
       year: 2021,
-      category: "Luxury Sedan",
+      category: "Luxury",
       rentalPricePerDay: 3900,
       availability: true,
       description:
@@ -1530,7 +1530,7 @@ export default {
       make: "Volkswagen",
       model: "Golf",
       year: 2020,
-      category: "Hatchback",
+      category: "Sedan",
       rentalPricePerDay: 1440,
       availability: true,
       description:
@@ -1699,7 +1699,7 @@ export default {
       make: "Mercedes-Benz",
       model: "C-Class",
       year: 2022,
-      category: "Luxury Sedan",
+      category: "Luxury",
       rentalPricePerDay: 4200,
       availability: true,
       description:
@@ -1759,7 +1759,7 @@ export default {
       make: "Mercedes-Benz",
       model: "E-Class",
       year: 2021,
-      category: "Luxury Sedan",
+      category: "Luxury",
       rentalPricePerDay: 4800,
       availability: true,
       description:
@@ -1818,7 +1818,7 @@ export default {
       make: "Mercedes-Benz",
       model: "GLA",
       year: 2020,
-      category: "Luxury SUV",
+      category: "Luxury",
       rentalPricePerDay: 3900,
       availability: true,
       description:
@@ -2001,11 +2001,11 @@ export default {
       make: "Audi",
       model: "R8",
       year: 2025,
-      category: "Sports Car",
+      category: "Luxury",
       rentalPricePerDay: 5500,
       availability: true,
       description:
-        "A high-performance sports car with breathtaking speed, handling, and an iconic design.",
+        "A high-performance Luxury sports car with breathtaking speed, handling, and an iconic design.",
       features: {
         transmission: "Auto",
         fuelType: "Gasoline",

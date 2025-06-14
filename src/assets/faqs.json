@@ -58,5 +58,17 @@
   {
     "question": "Do you offer delivery?",
     "answer": "Yes, we offer delivery but you have to call us and notify us in a 1-hour window."
+  },
+  {
+    "question": "What is Sedan ?",
+    "answer": "A sedan is a type of passenger car characterized by a three-box configuration with separate compartments for the engine, passengers, and cargo. Sedans typically have four doors and a fixed roof, providing a comfortable and spacious interior for up to five passengers. They are known for their smooth ride, fuel efficiency, and practicality, making them a popular choice for everyday transportation."
+  },
+  {
+    "question": "What is Suv ?",
+    "answer": "An SUV, or Sport Utility Vehicle, is a versatile vehicle designed for both on-road and off-road driving. It typically features a higher ground clearance, four-wheel drive capabilities, and a spacious interior that can accommodate more passengers and cargo than standard cars. SUVs are known for their ruggedness, making them suitable for various terrains, while also providing comfort and advanced safety features for everyday use."
+  },
+  {
+    "question": "What is Luxury ?",
+    "answer": "Luxury vehicles are high-end automobiles that prioritize comfort, performance, and advanced technology. They often feature premium materials, superior craftsmanship, and cutting-edge features such as advanced infotainment systems, high-quality sound systems, and enhanced safety technologies. Luxury cars are designed to provide an exceptional driving experience, with a focus on smooth handling, powerful engines, and a quiet, refined interior."
   }
 ]

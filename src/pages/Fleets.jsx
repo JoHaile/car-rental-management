@@ -12,15 +12,27 @@ import {
 import image from "../assets/img/wide-selection.webp";
 import CarsCard from "../components/CarsCard";
 import filterCars from "../hooks/filterCars";
-import data from "../assets/db22";
+// import data from "../assets/db22";
+import { ArrowDown, ArrowUp } from "lucide-react";
 
 function Fleets() {
-  const { filterUser, setFilter, filter } = filterCars();
+  const { filterUser, setFilter, filter, filterResult } = filterCars();
+
+  function handleFilterChange(type) {
+    setFilter((prevFilter) => {
+      const newFilter = { ...prevFilter, [type]: !prevFilter[type] };
+      // Reset other filters
+      Object.keys(newFilter).forEach((key) => {
+        if (key !== type && key !== "price") newFilter[key] = false;
+      });
+      return newFilter;
+    });
+  }
 
   return (
     <>
       <Box
-        height="75vh"
+        height="60vh"
         bgImage={`url(${image})`}
         bgPos="center center"
         bgSize="cover"
@@ -40,66 +52,85 @@ function Fleets() {
         </Center>
       </Box>
 
-      <Grid gridTemplateColumns="repeat(6, 1fr)">
-        <GridItem bgColor="red.600" colSpan={1}>
-          <Box>
+      <Grid gridTemplateColumns="repeat(6, 1fr)" minHeight="100vh">
+        <GridItem
+          // bgColor="red.600"
+          colSpan={1}
+          p={{ base: ".5rem", md: "1rem" }}
+        >
+          <Heading pb="2rem" size={{ base: "sm", lg: "lg" }} color="white">
+            Filter By
+          </Heading>
+
+          <Box display="flex" flexDir="column" gap="1rem" pb="1rem">
+            <Text>Fuel Type :</Text>
             <Button
-              onClick={() =>
-                setFilter({
-                  ...filter,
-                  gas: !filter.gas,
-                  electric: false,
-                  hybrid: false,
-                })
-              }
+              onClick={() => handleFilterChange("gas")}
+              className={filter.gas ? "btn-active" : ""}
             >
               Gas
             </Button>
             <Button
-              onClick={() =>
-                setFilter({
-                  ...filter,
-                  electric: !filter.electric,
-                  gas: false,
-                  hybrid: false,
-                })
-              }
+              onClick={() => handleFilterChange("electric")}
+              className={filter.electric ? "btn-active" : ""}
             >
               Electric
             </Button>
             <Button
-              onClick={() =>
-                setFilter({
-                  ...filter,
-                  hybrid: !filter.hybrid,
-                  gas: false,
-                  electric: false,
-                })
-              }
+              onClick={() => handleFilterChange("hybrid")}
+              className={filter.hybrid ? "btn-active" : ""}
             >
               Hybrid
             </Button>
           </Box>
-          {data.cars.forEach((car) => (
-            <p>{car.make}</p>
-          ))}
+
+          <Box display="flex" flexDir="column" gap="1rem">
+            <Text>Category :</Text>
+            <Button
+              onClick={() => handleFilterChange("sedan")}
+              className={filter.sedan ? "btn-active" : ""}
+            >
+              Sedan
+            </Button>
+            <Button
+              onClick={() => handleFilterChange("luxury")}
+              className={filter.luxury ? "btn-active" : ""}
+            >
+              Luxury
+            </Button>
+            <Button
+              onClick={() => handleFilterChange("suv")}
+              className={filter.suv ? "btn-active" : ""}
+            >
+              SUV
+            </Button>
+          </Box>
         </GridItem>
 
-        <GridItem colSpan={5} p={{ base: ".5rem", md: "1rem" }}>
-          <Box display="flex" justifyContent="space-between" pb={"1rem"}>
+        <GridItem
+          colSpan={5}
+          p={{ base: ".5rem", md: "1rem" }}
+          height="110vh"
+          overflowY="scroll"
+          scrollbar="hidden"
+          position="relative"
+        >
+          <Box
+            display="flex"
+            justifyContent="space-between"
+            bgColor="blackAlpha.700"
+            position="sticky"
+            backdropFilter="blur(10px)"
+            zIndex="1"
+            top="-16px"
+            left="0"
+            right="0"
+            height="80px"
+            alignItems="center"
+          >
             <Heading size={{ base: "1xl", lg: "2xl" }}>
               Filtered By
-              {filter.gas ? (
-                <span className="active"> Gasoline</span>
-              ) : filter.electric ? (
-                <span className="active"> Electric</span>
-              ) : filter.hybrid ? (
-                <span className="active"> Hybrid</span>
-              ) : filter.price ? (
-                <span className="active"> Low Price</span>
-              ) : (
-                " Relevance"
-              )}
+              <span className="active">{filterResult}</span>
             </Heading>
 
             <Button
@@ -107,12 +138,10 @@ function Fleets() {
                 setFilter({
                   ...filter,
                   price: !filter.price,
-                  // gas: false,
-                  // electric: false,
                 })
               }
             >
-              Price
+              Price {!filter.price ? <ArrowUp /> : <ArrowDown />}
             </Button>
           </Box>
           <SimpleGrid

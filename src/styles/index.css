@@ -61,7 +61,10 @@ li:hover {
 .active {
   color: royalblue;
 }
-
+.btn-active {
+  color: white;
+  background-color: royalblue;
+}
 .menu {
   position: relative;
   z-index: 2;

@@ -7,11 +7,33 @@ const filterCars = () => {
     electric: false,
     hybrid: false,
     price: false,
-    brand: false,
+    sedan: false,
+    suv: false,
+    luxury: false,
   });
+
+  // console.log(data.cars.map((car) => car.category));
+
   const price = priceFilter(data);
-  // const brand = brandFilter(price);
-  const filterUser = typeFilter(price);
+  const category = categoryFilter(price);
+  const filterUser = typeFilter(category);
+
+  //? for the filter result dynamic heading
+  const filterResult = filter.gas
+    ? " Gasoline"
+    : filter.electric
+      ? " Electric"
+      : filter.hybrid
+        ? " Hybrid Cars"
+        : filter.sedan
+          ? " Sedan"
+          : filter.suv
+            ? " SUVs"
+            : filter.luxury
+              ? " Luxury"
+              : filter.price
+                ? " Low Price"
+                : " Relevance";
 
   function priceFilter(carData) {
     const newCars = filter.price
@@ -21,14 +43,22 @@ const filterCars = () => {
       : carData.cars.sort((car1, car2) =>
           car1.rentalPricePerDay > car2.rentalPricePerDay ? -1 : 1
         );
-    // console.log(newCars);
+    // console.log(newCars.map((car) => car.category));
 
     return newCars;
   }
 
-  // function brandFilter(carData) {
-  //   const newCars = filter.brand ? carData.filter
-  // }
+  function categoryFilter(carData) {
+    const newCars = filter.luxury
+      ? carData.filter((car) => car.category === "Luxury")
+      : filter.suv
+        ? carData.filter((car) => car.category === "SUV")
+        : filter.sedan
+          ? carData.filter((car) => car.category === "Sedan")
+          : carData;
+
+    return newCars;
+  }
 
   function typeFilter(carData) {
     const newCars = filter.gas
@@ -42,7 +72,7 @@ const filterCars = () => {
     return newCars;
   }
 
-  return { filter, setFilter, filterUser };
+  return { filter, setFilter, filterUser, filterResult };
 };
 
 export default filterCars;
