@@ -12,8 +12,8 @@ import {
 import image from "../assets/img/wide-selection.webp";
 import CarsCard from "../components/CarsCard";
 import filterCars from "../hooks/filterCars";
-// import data from "../assets/db22";
 import { ArrowDown, ArrowUp } from "lucide-react";
+import Transition from "../transition";
 
 function Fleets() {
   const { filterUser, setFilter, filter, filterResult } = filterCars();
@@ -30,7 +30,7 @@ function Fleets() {
   }
 
   return (
-    <>
+    <Transition>
       <Box
         height="60vh"
         bgImage={`url(${image})`}
@@ -155,7 +155,7 @@ function Fleets() {
           </SimpleGrid>
         </GridItem>
       </Grid>
-    </>
+    </Transition>
   );
 }
 

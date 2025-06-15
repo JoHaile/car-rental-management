@@ -1,10 +1,11 @@
 import { SimpleGrid, Box, Heading } from "@chakra-ui/react";
 import data from "../assets/db22";
 import GoogleMap from "../components/GoogleMap";
+import Transition from "../transition";
 
 function Address() {
   return (
-    <div>
+    <Transition>
       <Heading
         as="h1"
         size={{ base: "2xl", md: "3xl", lg: "4xl" }}
@@ -35,7 +36,7 @@ function Address() {
           </div>
         ))}
       </SimpleGrid>
-    </div>
+    </Transition>
   );
 }
 

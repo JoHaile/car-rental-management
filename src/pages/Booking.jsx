@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import data from "../assets/db22";
 import { Image, Box, Grid, SimpleGrid } from "@chakra-ui/react";
 import Carousel from "../components/carousel/Carousel";
+import Transition from "../transition";
 
 function Booking() {
   const { id } = useParams();
@@ -11,10 +12,10 @@ function Booking() {
     return <div>Car not found</div>;
   }
 
-  console.log(car);
+  // console.log(car);
 
   return (
-    <>
+    <Transition>
       {car.map((c, index) => (
         <SimpleGrid
           key={c.id}
@@ -36,7 +37,7 @@ function Booking() {
           </Box>
         </SimpleGrid>
       ))}
-    </>
+    </Transition>
   );
 }
 
