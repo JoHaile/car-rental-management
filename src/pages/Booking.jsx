@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import data from "../assets/db22";
 import { Image, Box, Grid, SimpleGrid } from "@chakra-ui/react";
 import Carousel from "../components/carousel/Carousel";
-import Transition from "../transition";
+import Transition from "../Transition";
 
 function Booking() {
   const { id } = useParams();

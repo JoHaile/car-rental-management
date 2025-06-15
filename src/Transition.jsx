@@ -1,5 +1,4 @@
 import { AnimatePresence, motion } from "framer-motion";
-import Faq from "./pages/Faq";
 
 function Transition({ children }) {
   return (
@@ -12,7 +11,7 @@ function Transition({ children }) {
           initial={{ scaleY: 1 }}
           animate={{ scaleY: 0 }}
           exit={{ scaleY: 1 }}
-          transition={{ duration: 1, ease: "circInOut" }}
+          transition={{ duration: 1, ease: "easeIn" }}
         />
 
         <motion.div
@@ -21,7 +20,7 @@ function Transition({ children }) {
           initial={{ scaleY: 1 }}
           animate={{ scaleY: 0 }}
           exit={{ scaleY: 1 }}
-          transition={{ duration: 1, ease: "circInOut" }}
+          transition={{ duration: 1, ease: "easeIn" }}
         />
       </AnimatePresence>
     </>

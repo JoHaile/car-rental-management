@@ -1,5 +1,5 @@
 import React from "react";
-import Transition from "../transition";
+import Transition from "../Transition";
 
 function Contact() {
   return <Transition>Contact Page</Transition>;

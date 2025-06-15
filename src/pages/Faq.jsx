@@ -1,6 +1,6 @@
 import faqs from "../assets/faqs.json";
 import { Heading, Accordion, Span, Flex } from "@chakra-ui/react";
-import Transition from "../transition";
+import Transition from "../Transition";
 
 function Faq() {
   return (

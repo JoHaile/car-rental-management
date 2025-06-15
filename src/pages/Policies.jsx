@@ -1,6 +1,6 @@
 import policy from "../assets/policies.json";
 import { Accordion, Flex, Heading, Span, Text } from "@chakra-ui/react";
-import Transition from "../transition";
+import Transition from "../Transition";
 
 function Policies() {
   return (

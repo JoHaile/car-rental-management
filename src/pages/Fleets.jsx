@@ -13,7 +13,7 @@ import image from "../assets/img/wide-selection.webp";
 import CarsCard from "../components/CarsCard";
 import filterCars from "../hooks/filterCars";
 import { ArrowDown, ArrowUp } from "lucide-react";
-import Transition from "../transition";
+import Transition from "../Transition";
 
 function Fleets() {
   const { filterUser, setFilter, filter, filterResult } = filterCars();
