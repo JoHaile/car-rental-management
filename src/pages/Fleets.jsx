@@ -55,6 +55,8 @@ function Fleets() {
       <Grid gridTemplateColumns="repeat(6, 1fr)" minHeight="100vh">
         <GridItem
           // bgColor="red.600"
+          top="0"
+          left="0"
           colSpan={1}
           p={{ base: ".5rem", md: "1rem" }}
         >
@@ -110,23 +112,23 @@ function Fleets() {
         <GridItem
           colSpan={5}
           p={{ base: ".5rem", md: "1rem" }}
-          height="110vh"
-          overflowY="scroll"
-          scrollbar="hidden"
-          position="relative"
+          // height="110vh"
+          // overflowY="scroll"
+          // scrollbar="hidden"
+          // position="relative"
         >
           <Box
             display="flex"
             justifyContent="space-between"
-            bgColor="blackAlpha.700"
-            position="sticky"
-            backdropFilter="blur(10px)"
-            zIndex="1"
-            top="-16px"
-            left="0"
-            right="0"
             height="80px"
-            alignItems="center"
+            // bgColor="blackAlpha.700"
+            // position="sticky"
+            // backdropFilter="blur(10px)"
+            // zIndex="1"
+            // top="-16px"
+            // left="0"
+            // right="0"
+            // alignItems="center"
           >
             <Heading size={{ base: "1xl", lg: "2xl" }}>
               Filtered By

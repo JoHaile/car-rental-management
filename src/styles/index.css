@@ -6,6 +6,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  color-scheme: dark;
+}
+
 body {
   min-width: 320px;
   max-width: 1500px;
