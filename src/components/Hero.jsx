@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function Hero() {
   return (
     <>
-      <section className="hero">
+      <Box as="section" className="hero dark">
         <Box zIndex="2">
           <Heading as="h1" size={{ base: "4xl", md: "5xl", lg: "6xl" }}>
             Your journey.
@@ -23,7 +23,7 @@ function Hero() {
             </Button>
           </NavLink>
         </Box>
-      </section>
+      </Box>
     </>
   );
 }
